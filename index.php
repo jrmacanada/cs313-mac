@@ -8,12 +8,12 @@
 <body>
     <header>
         <div>
-        <p>-HELLO WORLD-</p>
+        <h1>-HELLO WORLD-</h1>
         </div>
     </header>
         
     <main> 
-        <h2>From: Mike Cavey</h2>    
+        <h3>From: Mike Cavey</h3>    
     </main> 
 </body>
 </html>
