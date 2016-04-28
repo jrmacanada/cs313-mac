@@ -4,8 +4,7 @@
             <li><a href="../index.php" title="Welcome">HOME</a></li>
             <li><a href="site-plan.php" title="View the Site Plan">Site Plan</a></li>
             <li><a href="site-map.php" title="Site Map">Site Map</a></li>
-<!--                 <li><a href="assets/assignments.php" title="Course Work">Assignments</a></li>
--->
+            <li><a href="assignments.php" title="Course Work">Assignments</a></li>
         </ul>
     </nav>
     <br>

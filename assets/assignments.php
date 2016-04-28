@@ -22,9 +22,9 @@
         <p>Click the link to view assignment.</p>
         <ul>
             <li><a href="spiritual-1.php" title="Spiritual Thought #1">Spiritual Thought #1</a></li>
-            <li><a href="wk2-activity.php" title="Week-2 Activity">Week-2 Activity</a></li>
+<!--            <li><a href="wk2-activity.php" title="Week-2 Activity">Week-2 Activity</a></li>
             <li><a href="php-survey.php" title="PHP Survey">PHP Survey</a></li>
-        </ul>
+-->         </ul>
         <br>
     </main>
     <footer>
