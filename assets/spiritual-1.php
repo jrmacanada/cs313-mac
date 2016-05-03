@@ -19,20 +19,19 @@
         <?php include 'snip-mainmenu.php'; ?>
     <main>
         <h2>Spiritual Thought #1</h2>
-        <p>“No man can serve two masters: for either he will hate the one, and love the other; 
-            or else he will hold to the one, and despise the other. Ye cannot serve God and mammon.” (Matthew 6:24)</p>
-        <img src="two-masters.jpg" alt="God or money"/>
-        <p>I was reminded of this while reading the book <u>the ministry of business</u>, by Steven A. Hitz. 
-            Advising against living a duplicitous life in which business or work ethics vary from family or church 
-            morals, the author suggests that behavior must be consistent and righteous in all areas of life to benefit 
-            the most from God’s blessings. </p>
-        <p>He states, “It is nothing more than self-deceit to think you can be one person at home and someone totally 
-            different at work.” The covenants we latter-day saints make connect us to heaven and are a full-time 
-            commitment. We “commit ourselves to following His teachings in all places and in all times.” Hence, 
-            “we are bound … in all aspects of our lives.”</p>
-        <p>Hitz continues, “Only by living an honest, upright, charitable life … will our (connection) to heaven be properly maintained.” 
-            Only through obedience to our covenants can the promise of revelation by the gift and power of the Holy Ghost 
-            be assured and made real. His guidance is best when applied to all aspects of our life.</p>
+        <p>I feel the doctrine of eternal progression that we have in the LDS Church is the greatest provided with the 
+            restoration. If we are not progressing in the gospel, we fall short of our godly potential and risk being 
+            hobbled by Satan. The warning for such a fate is stated early in the bible (Genesis 3:15) when the serpent 
+            is given the power to bruise our heel. Doubt is his tool that stops our progression. The remedy we have is 
+            faith in Christ, which bruises the serpent’s head. </p>
+        <p>Is it any wonder the Church asks us to continue on the path of Christly perfection? So long as we are moving 
+            to become more like Christ, we are moving away from Satan. This scripture marks the earliest reference to an 
+            ultimate victory of mankind over the seed of the devil. It is a victory made sure through the atonement of 
+            Christ, whose salvation frees us of the bonds of sin and opens the doors of our spiritual prison.</p>
+        <p>To some degree, every religion represents a plateau of progression. Buddhists, Muslims, Jews, Catholics, and 
+            Protestants alike have all stopped progressing toward the greater promises we have in the LDS Church. Our 
+            promises through covenants exalt us to Godliness. Whereas all others will remain the sons and daughters of 
+            God, we will progress to being mothers and fathers in Israel.</p>
         <p><a href="assignments.php" title="Return to Assignments">Return to Assignments</a></p>
         <br>
     </main>
