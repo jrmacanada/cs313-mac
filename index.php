@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-        <img src="assets/wdd-logo.jpeg" alt="Graphic Logo"/>
+        <img src="assets/prayer-bible.jpg" alt="Image Logo"/>
         <div>
         <p>-IN LOVING MEMORY-</p>
         <p>Remembering the Disappeared</p>
