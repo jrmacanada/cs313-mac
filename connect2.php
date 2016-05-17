@@ -10,7 +10,8 @@ function dbConnect() {
 
 	$onOpenShift = getenv('OPENSHIFT_MYSQL_DB_HOST');
 
-	if ($onOpenShift === null || $onOpenShift=='') {
+	if ($onOpenShift === null || $onOpenShift== "") 
+	{
 		// in our localhost environment
 		$dbHost = '127.0.0.1';
 		$dbPort = '8889';
@@ -25,7 +26,7 @@ function dbConnect() {
 		$dbPassword = getenv('OPENSHIFT_MYSQL_DB_PASSWORD');
 	}
 
-	echo "DB host:$dbHost:$dbPort dbName:$dbName user:$dbUser";
+	echo "DB HOST:$dbHost:$dbPort dbName:$dbName user:$dbUser";
 
 	$db = new PDO("mysql:host=$dbHost:$dbPort;dbname=$dbName", $dbUser, $dbPassword);
 
