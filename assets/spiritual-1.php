@@ -2,7 +2,7 @@
 <html lang="en-US">
 <head>
     <meta charset="utf-8">
-    <title>Spiritual Thought #1</title>
+    <title>Week-1 Spiritual Thought</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="cs313php.css" type="text/css" rel="stylesheet" media="screen">
 </head>
@@ -18,7 +18,7 @@
     </header>
         <?php include 'snip-mainmenu.php'; ?>
     <main>
-        <h2>Spiritual Thought #1</h2>
+        <h2>Week-1 Spiritual Thought</h2>
         <p>I feel the doctrine of eternal progression that we have in the LDS Church is the greatest provided with the 
             restoration. If we are not progressing in the gospel, we fall short of our godly potential and risk being 
             hobbled by Satan. The warning for such a fate is stated early in the bible (Genesis 3:15) when the serpent 

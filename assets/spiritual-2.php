@@ -2,7 +2,7 @@
 <html lang="en-US">
 <head>
     <meta charset="utf-8">
-    <title>Spiritual Thought #2</title>
+    <title>Week-2 Spiritual Thought</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="cs313php.css" type="text/css" rel="stylesheet" media="screen">
 </head>
@@ -18,7 +18,7 @@
     </header>
         <?php include 'snip-mainmenu.php'; ?>
     <main>
-        <h2>Spiritual Thought #2</h2>
+        <h2>Week-2 Spiritual Thought</h2>
         <p>“No man can serve two masters: for either he will hate the one, and love the other; 
             or else he will hold to the one, and despise the other. Ye cannot serve God and mammon.” (Matthew 6:24)</p>
         <img src="two-masters.jpg" alt="God or money"/>

@@ -13,14 +13,22 @@
         <div>
         <p>-IN LOVING MEMORY-</p>
         <p>Remembering the Disappeared</p>
-        <p>Please Input your Information</p>
+        <p>Please Select the Information</p>
         </div>
     </header>
         <?php include 'snip-mainmenu.php'; ?>
     <main>
-    <h2>Content</h2>
-    <p>Placeholder Page: Database OUTPUTS under development.</p>
+    <h2>Information on Disappeared Persons</h2>
+    <p>Database OUTPUT Test (under development).</p>
     <br>
+        <form class="search" id="survey" action="wk5act-index.php" method="post"  >
+            <div>Please select a List:</div>
+            <input type="radio" name="data" value="All Data">All Data<br/>
+            <input type="radio" name="data" value="Names of Victims">Names of Victims<br/>
+            <input type="radio" name="data" value="Date Disappeared">Date Disappeared<br/>
+            <input type="radio" name="data" value="Country of Disappearance">Country of Disappearance<br/>
+            <input type="submit" name="submit" value="Submit">
+        </form>
     </main>
     <footer>
         <?php include 'snip-cs313menu.php'; ?>

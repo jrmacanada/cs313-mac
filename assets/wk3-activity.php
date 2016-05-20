@@ -5,7 +5,7 @@
 </head>
 <body>
     <h2>Take the Team Survey:</h2>
-    <form method="post" action="wk2act-index.php">
+    <form method="post" action="wk3act-index.php">
         <label for="name">Your Name:</label>
         <input type="text" name="name" id="name" size="20" required="true"/>
         <br/>

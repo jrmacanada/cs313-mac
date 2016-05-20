@@ -21,10 +21,11 @@
         <h2>List of Assignments</h2>
         <p>Click the link to view assignment.</p>
         <ul>
-            <li><a href="spiritual-1.php" title="Spiritual Thought #1">Spiritual Thought #1</a></li>
-            <li><a href="spiritual-2.php" title="Spiritual Thought #2">Spiritual Thought #2</a></li>
-            <li><a href="wk2-activity.php" title="Team Readiness Activity">Team Readiness Activity</a></li>
-            <li><a href="php-survey.php" title="PHP Survey">PHP Survey</a></li>
+            <li><a href="spiritual-1.php" title="Week-1 Spiritual Thought">Week-1 Spiritual Thought</a></li>
+            <li><a href="spiritual-2.php" title="Week-2 Spiritual Thought">Week-2 Spiritual Thought</a></li>
+            <li><a href="wk3-activity.php" title="Week-3 Team Activity">Week-3 Team Activity</a></li>
+            <li><a href="php-survey.php" title="Week-3 PHP Survey">Week-3 PHP Survey</a></li>
+            <li><a href="wk5-activity.php" title="Week-5 Team Activity">Week-5 Team Activity</a></li>
         </ul>
        <br>
     </main>
