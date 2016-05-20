@@ -3,7 +3,7 @@
 //Open DB
 try 
 {   
-    $db = OpenDB("scriptures");
+    $db = OpenDB("cavey313");
     
 } catch (Exception $ex) 
 {
