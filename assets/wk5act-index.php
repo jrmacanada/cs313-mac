@@ -13,8 +13,8 @@ try
 
 echo "Scripture Resources<br>";
 
-//Get sected radio button
-$dbcolumn =  $_POST['book'];
+//Get selected radio button
+$dbcolumn =  $_POST['data'];
 
 //Check if Radio button was selected or "All" was chosen
 if($dbcolumn == "All" || $dbcolumn == NULL)

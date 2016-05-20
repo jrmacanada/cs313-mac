@@ -25,7 +25,7 @@
             <li><a href="spiritual-2.php" title="Week-2 Spiritual Thought">Week-2 Spiritual Thought</a></li>
             <li><a href="wk3-activity.php" title="Week-3 Team Activity">Week-3 Team Activity</a></li>
             <li><a href="php-survey.php" title="Week-3 PHP Survey">Week-3 PHP Survey</a></li>
-            <li><a href="data-out.php" title="Week-5 Team Activity">Week-5 Team Activity</a></li>
+            <li><a href="team-index.html" title="Week-5 Team Activity">Week-5 Team Activity</a></li>
         </ul>
        <br>
     </main>
