@@ -28,17 +28,20 @@ $dbcolumn =  $_POST['book'];
 
 //Check if Radio button was selected or "All" was chosen
 if($dbcolumn == "All" || $dbcolumn == NULL)
-    $statement = $db->query("SELECT id, book, chapter, verse, context FROM scriptures");
-else
-    $statement = $db->query("SELECT id, book, chapter, verse, context FROM scriptures where book = " . $db->quote($dbcolumn) );  //use ->quote() to wrap "quotes" around variable
-
+{
+    $statement = $db->query("SELECT id, book, chapter, verse, content FROM scriptures");
+}
+else {
+    $statement = $db->query("SELECT id, book, chapter, verse, content FROM scriptures where book = " . $db->quote($dbcolumn) );  //use ->quote() to wrap "quotes" around variable
+}
+    
 //Got get the data from the database
 $results = $statement->fetchAll(PDO::FETCH_ASSOC);
 
 //Display the results
 foreach ($results as $row)
 {
-    echo "<b>" . $row["book"]. " " . $row["chapter"]. ":" . $row["verse"]. "</b> - ". $row["context"]."<br>";
+    echo "<b>" . $row["book"]. " " . $row["chapter"]. ":" . $row["verse"]. "</b> - ". $row["content"]."<br>";
 }
 
 $db = null;  //Close out the DB
