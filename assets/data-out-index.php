@@ -11,7 +11,7 @@ try
     die();
 }
 
-echo "DATABASE LIST<br>";
+echo "DATABASE LIST<br><br>";
 
 //Get selected radio button
 $dbcolumn =  $_POST['data'];
