@@ -21,13 +21,15 @@
     <h2>Information on Disappeared Persons</h2>
     <p>Database OUTPUT Test (under development).</p>
     <br>
-        <form class="search" id="survey" action="wk5act-index.php" method="post"  >
+        <form class="search" id="survey" action="data-out-index.php" method="post"  >
             <div>Please select a List:</div>
             <input type="radio" name="data" value="All">All Data<br/>
-            <input type="radio" name="data" value="Names of Victims">Names of Victims<br/>
-            <input type="radio" name="data" value="Date Disappeared">Date Disappeared<br/>
-            <input type="radio" name="data" value="Country of Disappearance">Country of Disappearance<br/>
+            <input type="radio" name="data" value="Name">Names of Victims<br/>
+            <input type="radio" name="data" value="Date">Date Disappeared<br/>
+            <input type="radio" name="data" value="Country">Country of Disappearance<br/>
             <input type="submit" name="submit" value="Submit">
+            <br/>
+            <br/>
         </form>
     </main>
     <footer>
