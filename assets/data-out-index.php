@@ -16,31 +16,34 @@ echo "DATABASE LIST<br>";
 //Get selected radio button
 $dbcolumn =  $_POST['data'];
 
-//Check if Radio button was selected or "All" was chosen
-if($dbcolumn == "All" || $dbcolumn == NULL)
-{
+//Check which Radio button was selected or NULL
+if ($dbcolumn == "All" || $dbcolumn == NULL) {
     $statement = $db->query("SELECT id, name, date, country FROM disappeared");
+} else if ($dbcolumn == "Name") {
+    $statement = $db->query("SELECT name FROM disappeared");
+} else if ($dbcolumn == "Date") {
+    $statement = $db->query("SELECT date FROM disappeared");
+} else if ($dbcolumn == "Country") {
+    $statement = $db->query("SELECT country FROM disappeared");
 }
-else {
-    $statement = $db->query("SELECT id, name, date, country FROM disappeared where name = " . $db->quote($dbcolumn) );  //use ->quote() to wrap "quotes" around variable
-}
-//Got get the data from the database
+
+//Get the data from the database
 $results = $statement->fetchAll(PDO::FETCH_ASSOC);
 
 //Display the results
 foreach ($results as $row)
 {
-    echo "<b>" . $row["name"]. " " . $row["date"]. ":" . $row["country"]."<br>";
+    echo "<b>" . $row["name"]. ", " . $row["date"]. ":" . $row["country"]."<br>";
 }
 
 $db = null;  //Close out the DB
 
 
 
- // Function to open DB on localhost or OpenShift
+// *******************
+// Function to open DB on localhost or OpenShift
 function openDB($dbname)
 {
-
     $onOpenShift = getenv('OPENSHIFT_MYSQL_DB_HOST');
 
     if ($onOpenShift === null || $onOpenShift == "")
