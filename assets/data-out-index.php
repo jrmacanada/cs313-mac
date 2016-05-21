@@ -33,7 +33,7 @@ $results = $statement->fetchAll(PDO::FETCH_ASSOC);
 //Display the results
 foreach ($results as $row)
 {
-    echo "<b>" . $row["name"]. "   " . $row["date"]. "   " . $row["country"]."<br>";
+    echo "<b>" . $row["name"]. " : " . $row["date"]. " : " . $row["country"]."<br>";
 }
 
 $db = null;  //Close out the DB
