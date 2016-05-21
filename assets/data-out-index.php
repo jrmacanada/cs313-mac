@@ -18,13 +18,13 @@ $dbcolumn =  $_POST['data'];
 
 //Check which Radio button was selected or NULL
 if ($dbcolumn == "All" || $dbcolumn == NULL) {
-    $statement = $db->query("SELECT id, name, date, country FROM disappeared");
+    $statement = $db->query("SELECT id, name, date, country FROM disappeared ORDER BY country, name, date");
 } else if ($dbcolumn == "Name") {
-    $statement = $db->query("SELECT name FROM disappeared");
+    $statement = $db->query("SELECT name FROM disappeared ORDER BY name");
 } else if ($dbcolumn == "Date") {
-    $statement = $db->query("SELECT date FROM disappeared");
+    $statement = $db->query("SELECT date FROM disappeared ORDER BY date");
 } else if ($dbcolumn == "Country") {
-    $statement = $db->query("SELECT country FROM disappeared");
+    $statement = $db->query("SELECT country FROM disappeared ORDER BY country");
 }
 
 //Get the data from the database
