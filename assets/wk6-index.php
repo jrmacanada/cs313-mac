@@ -31,13 +31,13 @@ if (!isset($_SESSION['complete'])) {
     <main>
         <h2>Scripture INPUT Form</h2>
         <form id="survey-form" method="post" action="scripture-index.php">
-            <label for="name">Please identify the Book:</label>
+            <label for="name">Please identify the <strong>Book</strong>:</label>
             <input type="text" name="name" id="name" size="30" required="true"/>
             <br/><br/>
-            <label for="name">Please enter the Chapter:</label>
+            <label for="name">Please enter the <strong>Chapter</strong>:</label>
             <input type="text" name="name" id="name" size="30" required="true"/>
             <br/><br/>
-            <label for="name">Please identify the Verse:</label>
+            <label for="name">Please identify the <strong>Verse</strong>:</label>
             <input type="text" name="name" id="name" size="30" required="true"/>
             <br/>
         <h4>Content</h4>
@@ -49,7 +49,7 @@ if (!isset($_SESSION['complete'])) {
             <input type="checkbox" name="charity" value="charity"/>Charity<br/>
             <p>(select as many as apply)</p>
             <br/>
-            <label for="name">Please start a NEW topic.</label>
+            <label for="name">Please start a NEW topic:</label>
             <input type="text" name="name" id="name" size="30" required="true"/>
             <br/>
         </form>
