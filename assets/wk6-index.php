@@ -33,28 +33,26 @@ if (!isset($_SESSION['complete'])) {
         <form id="survey-form" method="post" action="scripture-index.php">
             <label for="name">Please identify the Book:</label>
             <input type="text" name="name" id="name" size="30" required="true"/>
-            <br/>
-            <label for="name">Please identify the Chapter:</label>
+            <br/><br/>
+            <label for="name">Please enter the Chapter:</label>
             <input type="text" name="name" id="name" size="30" required="true"/>
-            <br/>
+            <br/><br/>
             <label for="name">Please identify the Verse:</label>
             <input type="text" name="name" id="name" size="30" required="true"/>
             <br/>
-            <h4>Content</h4>
-            <p>(copy and paste scripture into content box)</p>
+            <h4>Content </h4><p>(copy and paste your scripture into the box)</p>
         <textarea name="message" id="message" rows="10" cols="100" required="true"></textarea>
-        <br/><br/>
-            <h4>What topics does your scripture relate too?</h4>
-            <p>(select as many as apply)</p>
+        <br/>
+            <h4>What topics does your scripture relate too? </h4><p>(select as many as apply)</p>
             <input type="checkbox" name="faith" value="faith"/>Faith<br/>
             <input type="checkbox" name="sacrifice" value="sacrifice"/>Sacrifice<br/>
             <input type="checkbox" name="charity" value="charity"/>Charity<br/>
             <br/>
-            <label for="name">Please identify a NEW topic.</label>
+            <label for="name">Please start a NEW topic.</label>
             <input type="text" name="name" id="name" size="30" required="true"/>
             <br/>
         </form>
-        <p><a href="data-out.php" title="Go to Data Query">Go to Data Query</a></p>
+        <p><a href="team-index.php" title="Go to Data Query">Go to Data Query</a></p>
         <br>
     </main>
     <footer>
