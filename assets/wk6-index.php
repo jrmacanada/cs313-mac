@@ -40,13 +40,14 @@ if (!isset($_SESSION['complete'])) {
             <label for="name">Please identify the Verse:</label>
             <input type="text" name="name" id="name" size="30" required="true"/>
             <br/>
-            <h4>Content <p>(copy and paste your scripture into the box)</p></h4>
-        <textarea name="message" id="message" rows="10" cols="100" required="true"></textarea>
-        <br/>
-            <h4>What topics does your scripture relate too? <p>(select as many as apply)</p></h4>
+        <h4>Content</h4>
+            <textarea name="message" id="message" rows="10" cols="100" required="true"></textarea>
+            <p>(copy and paste your scripture into the box)</p>
+        <h4>What topics does your scripture relate too?</h4>
             <input type="checkbox" name="faith" value="faith"/>Faith<br/>
             <input type="checkbox" name="sacrifice" value="sacrifice"/>Sacrifice<br/>
             <input type="checkbox" name="charity" value="charity"/>Charity<br/>
+            <p>(select as many as apply)</p>
             <br/>
             <label for="name">Please start a NEW topic.</label>
             <input type="text" name="name" id="name" size="30" required="true"/>
