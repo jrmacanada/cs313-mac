@@ -1,14 +1,3 @@
-<?php
-// Start the session [session logic adopted from ALEXANDER CASAL's website]
-session_start();
-if (!isset($_SESSION['complete'])) {
-	$_SESSION['complete'] = 0;
-} else if ($_SESSION['complete'] == 1) {
-        header('Location: '.'http://php-cavey313.rhcloud.com/assets/phpsurvey-index.php');
-	//header('Location: '.'http://www.recordado.org/cs313php/assets/phpsurvey-index.php');
-}
-?>
-
 <!DOCTYPE html> 
 <html lang="en-US">
 <head>
@@ -52,6 +41,7 @@ if (!isset($_SESSION['complete'])) {
             <label for="name">Please start a NEW topic:</label>
             <input type="text" name="name" id="name" size="30" required="true"/>
             <br/>
+            <input type="submit" name="action" id="action" value="Submit"/>
         </form>
         <p><a href="team-index.html" title="Go to Data Query">Go to Data Query</a></p>
         <br>
