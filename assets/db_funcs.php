@@ -5,14 +5,17 @@
  *  File: db_funcs.php
  *  Created by: jsimpson
  *  Date: May 25, 2016 6:58:42 AM
- *  Description:
+ *  Description: Week L06 Team Activity
+ * 
+ *  Adapted by: Michael Cavey
+ *  Date: May 28, 2016
  * 
  ****************************************/
 
                 
 function getTopics()
 {
-    $db = OpenDB("scriptures");
+    $db = OpenDB("cavey313");
 
     $statement = $db->query("SELECT * FROM topics");
     $topics = $statement->fetchAll(PDO::FETCH_ASSOC);
@@ -78,13 +81,13 @@ function addVerse()
     $book = $_POST['book'];
     $chapter = $_POST['chapter'];
     $verse = $_POST['verse'];
-    $context =  $_POST['content'];
+    $content =  $_POST['content'];
   
 
-    $db = OpenDB("scriptures");
+    $db = OpenDB("cavey313");
     
 
-    $statement = "INSERT INTO scriptures (book,chapter,verse,context) VALUES ('$book', '$chapter', '$verse', '$context')";
+    $statement = "INSERT INTO scriptures (book,chapter,verse,content) VALUES ('$book', '$chapter', '$verse', '$content')";
 
         
    //insert into scriptures VALUES (NULL,NULL,"John","3","5","For god so loved the world");

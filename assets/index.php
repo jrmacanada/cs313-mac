@@ -1,4 +1,5 @@
 <?php include "db_funcs.php"; ?>
+
 <!DOCTYPE html>
 <!--
 /**************************************
@@ -6,7 +7,10 @@
  *  File: index.php
  *  Created by: jsimpson
  *  Date: May 16, 2016 8:52:37 PM
- *  Description:
+ *  Description: Week L06 Team Activity
+ * 
+ *  Adapted by: Michael Cavey
+ *  Date: May 28, 2016
  * 
  ****************************************/
 -->
