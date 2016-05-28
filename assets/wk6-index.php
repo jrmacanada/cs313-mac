@@ -19,7 +19,7 @@
         <?php include 'snip-mainmenu.php'; ?>
     <main>
         <h2>Scripture INPUT Form</h2>
-        <form id="survey-form" method="post" action="scripture-index.php">
+        <form id="survey-form" method="post" action="wk6-index.php">
             <label for="name">Please identify the <strong>Book</strong>:</label>
             <input type="text" name="name" id="name" size="30" required="true"/>
             <br/><br/>
