@@ -16,7 +16,7 @@
 <body>
 <div>
 
-<h1>Scripture and Topic List</h1>
+<h1>Profiles of the Disappeared</h1>
 
 <?php
 
@@ -94,9 +94,9 @@ try
 		// get the topics now for this scripture
 		$stmtTopics = $db->prepare('SELECT name FROM stats t'
 			. ' INNER JOIN disappeared_stats st ON st.statsId = t.id'
-			. ' WHERE st.disappearedId = :scriptureId');
+			. ' WHERE st.disappearedId = :disappearedId');
 
-		$stmtTopics->bindParam(':scriptureId', $row['id']);
+		$stmtTopics->bindParam(':disappearedId', $row['id']);
 
 		$stmtTopics->execute();
 

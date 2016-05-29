@@ -92,7 +92,7 @@ try
 //mac	$db = new PDO("mysql:host=$dbHost;dbname=$dbName", $dbUser, $dbPass);
         $db = dbConnect();
 	// prepare the statement
-	$statement = $db->prepare('SELECT id, name FROM topic');
+	$statement = $db->prepare('SELECT id, name FROM stats');
 	$statement->execute();
 
 	// Go through each result
@@ -121,7 +121,9 @@ catch (PDOException $ex)
 
 	<input type="submit" value="Add to Database" />
         
-        <br />
+        <p>
+            
+        </p>
 
 </form>
 

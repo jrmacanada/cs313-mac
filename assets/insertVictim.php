@@ -75,14 +75,14 @@ try
 	$db->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
 
 	// First Add the Scripture
-	$query = 'INSERT INTO disappeared(name, date, country, story) VALUES(:book, :chapter, :verse, :content)';
+	$query = 'INSERT INTO disappeared(name, date, country, story) VALUES(:name, :date, :country, :story)';
 
 	$statement = $db->prepare($query);
 
-	$statement->bindParam(':book', $book);
-	$statement->bindParam(':chapter', $chapter);
-	$statement->bindParam(':verse', $verse);
-	$statement->bindParam(':content', $content);
+	$statement->bindParam(':name', $book);
+	$statement->bindParam(':date', $chapter);
+	$statement->bindParam(':counrty', $verse);
+	$statement->bindParam(':story', $content);
 
 	$statement->execute();
 
@@ -92,10 +92,10 @@ try
 	// Now go through each topic id in the list from the user's checkboxes
 	foreach ($topicIds as $topicId)
 	{
-		$statement = $db->prepare('INSERT INTO disappeared_stats(disappearedId, statsId) VALUES(:scriptureId, :topicId)');
+		$statement = $db->prepare('INSERT INTO disappeared_stats(disappearedId, statsId) VALUES(:disappearedId, :statsId)');
 
-		$statement->bindParam(':scriptureId', $scriptureId);
-		$statement->bindParam(':topicId', $topicId);
+		$statement->bindParam(':disappearedId', $scriptureId);
+		$statement->bindParam(':statsId', $topicId);
 
 		$statement->execute();
 	}
