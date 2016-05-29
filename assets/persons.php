@@ -20,27 +20,27 @@
     <main>
     <div>
 
-<h1>Enter New Scriptures and Topics</h1>
+<h1>Profiles of the Disappeared</h1>
 
-<form id="mainForm" action="insertTopic.php" method="POST">
+<form id="mainForm" action="insertVictim.php" method="POST">
 
 	<input type="text" id="txtBook" name="txtBook"></input>
-	<label for="txtBooK">Book</label>
+	<label for="txtBooK">Name of Victim</label>
 	<br /><br />
 
 	<input type="text" id="txtChapter" name="txtChapter"></input>
-	<label for="txtChapter">Chapter</label>
+	<label for="txtChapter">Date Disappeared</label>
 	<br /><br />
 
 	<input type="text" id="txtVerse" name="txtVerse"></input>
-	<label for="txtVerse">Verse</label>
+	<label for="txtVerse">Country of Disappearance</label>
 	<br /><br />
 
-	<label for="txtContent">Content:</label><br />
-	<textarea id="txtContent" name="txtContent" rows="4" cols="50"></textarea>
+	<label for="txtContent">Personal Story:</label><br />
+	<textarea id="txtContent" name="txtContent" rows="8" cols="80"></textarea>
 	<br /><br />
 
-	<label>Topics:</label><br />
+	<label>Statistics:</label><br />
 
 <?php
 // This section will now generate the available check boxes for topics
@@ -59,7 +59,7 @@ function dbConnect() {
 	$dbPort = '';
 	$dbUser = '';
 	$dbPassword = '';
-	$dbName = 'teamActivity4';
+	$dbName = 'php';
 
 	$onOpenShift = getenv('OPENSHIFT_MYSQL_DB_HOST');
 
@@ -120,6 +120,8 @@ catch (PDOException $ex)
 	<br />
 
 	<input type="submit" value="Add to Database" />
+        
+        <br />
 
 </form>
 
