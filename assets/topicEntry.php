@@ -120,6 +120,7 @@ catch (PDOException $ex)
 
 </form>
 
+<p><a href="assignments.php" title="Return to Assignments">Return to Assignments</a></p>
 
 </div>
 

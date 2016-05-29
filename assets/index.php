@@ -48,6 +48,9 @@
             
           <input type="submit" name="submit" value="Submit"> 
         </form>
+        
+        <p><a href="assignments.php" title="Return to Assignments">Return to Assignments</a></p>
+        
     </body>
 </html>
     
