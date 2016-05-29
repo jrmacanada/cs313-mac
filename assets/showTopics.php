@@ -26,6 +26,39 @@
 // mac $dbName = 'teamActivity4';
 // mac $dbHost = '127.0.0.1'; // for my configuration, I need this rather than 'localhost'
 
+function dbConnect() {
+
+	$dbHost = '';
+	$dbPort = '';
+	$dbUser = '';
+	$dbPassword = '';
+	$dbName = 'teamActivity4';
+
+	$onOpenShift = getenv('OPENSHIFT_MYSQL_DB_HOST');
+
+	if ($onOpenShift === null || $onOpenShift== "") 
+	{
+		// in our localhost environment
+		$dbHost = '127.0.0.1';
+		$dbPort = '8889';
+		$dbUser = 'root';
+		$dbPassword = 'root';
+	}
+	else {
+		//in our OpenShift environment
+		$dbHost = getenv('OPENSHIFT_MYSQL_DB_HOST');
+		$dbPort = getenv('OPENSHIFT_MYSQL_DB_PORT');
+		$dbUser = getenv('OPENSHIFT_MYSQL_DB_USERNAME');
+		$dbPassword = getenv('OPENSHIFT_MYSQL_DB_PASSWORD');
+	}
+
+//mac	echo "DB HOST:$dbHost:$dbPort dbName:$dbName user:$dbUser";
+
+	$db = new PDO("mysql:host=$dbHost:$dbPort;dbname=$dbName", $dbUser, $dbPassword);
+
+	return $db;
+}
+
 try
 {
 	// Create the PDO connection

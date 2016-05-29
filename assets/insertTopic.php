@@ -59,7 +59,7 @@ function dbConnect() {
 		$dbPassword = getenv('OPENSHIFT_MYSQL_DB_PASSWORD');
 	}
 
-	echo "DB HOST:$dbHost:$dbPort dbName:$dbName user:$dbUser";
+//mac	echo "DB HOST:$dbHost:$dbPort dbName:$dbName user:$dbUser";
 
 	$db = new PDO("mysql:host=$dbHost:$dbPort;dbname=$dbName", $dbUser, $dbPassword);
 
