@@ -120,10 +120,6 @@ catch (PDOException $ex)
 	<br />
 
 	<input type="submit" value="Add to Database" />
-        
-        <p>
-            
-        </p>
 
 </form>
 

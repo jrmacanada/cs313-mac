@@ -86,8 +86,8 @@ try
 	while ($row = $statement->fetch(PDO::FETCH_ASSOC))
 	{
 		echo '<p>';
-		echo '<strong>' . $row['book'] . ' ' . $row['chapter'] . ':';
-		echo $row['verse'] . '</strong>' . ' - ' . $row['content'];
+		echo '<strong>' . $row['name'] . ' ' . $row['date'] . ':';
+		echo $row['country'] . '</strong>' . ' - ' . $row['story'];
 		echo '<br />';
 		echo 'Statistics: ';
 

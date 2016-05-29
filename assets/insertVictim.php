@@ -19,10 +19,10 @@ $verse = $_POST['txtVerse'];
 $content = $_POST['txtContent'];
 $topicIds = $_POST['chkTopics'];
 
-echo "book=$book\n";
-echo "chapter=$chapter\n";
-echo "verse=$verse\n";
-echo "content=$content\n";
+echo "name=$book\n";
+echo "date=$chapter\n";
+echo "country=$verse\n";
+echo "story=$content\n";
 
 // we could put additional checks here to verify that all this data is actually provided
 
