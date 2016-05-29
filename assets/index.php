@@ -16,7 +16,7 @@
 -->
 <html>
     <head>
-        <title>GroupProject 6.5</title>
+        <title>Group Project 6.5</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         

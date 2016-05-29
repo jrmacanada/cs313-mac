@@ -52,7 +52,7 @@ function addTopics($getId)
       }
       
    
-    $db = OpenDB("scriptures");
+    $db = OpenDB("cavey313");
      //insert into scriptures VALUES (NULL,NULL,"John","3","5","For god so loved the world");
     $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
  
