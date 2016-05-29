@@ -9,7 +9,7 @@
  * 
  *  Adapted by: Michael Cavey
  *  Date: May 28, 2016
- * 
+ *  ?????
  ****************************************/
 
                 
@@ -26,8 +26,8 @@ function getTopics()
 }
 
 
-function addTopics($getId)
-{
+function addTopics($getId) {
+
       $topics = FillCheckArray("topics");
       
       $count = count($topics);
@@ -36,21 +36,21 @@ function addTopics($getId)
       if($count >= 1)
       {
 
-          $statement = "INSERT INTO verse_topic (vs_id,topic_id) VALUES ";
+          $statement = "INSERT INTO verse_topic (vs_id, topic_id) VALUES ";
           
           foreach($topics as $item)
           {
               $i++;
               $statement .= "($getId,$item)";
               
-              if($i != $count)
+              if($i != $count) {
                   $statement .= ',';
              
           }
           
           $statement .= ";";
       }
-      
+    }    
    
     $db = OpenDB("cavey313");
      //insert into scriptures VALUES (NULL,NULL,"John","3","5","For god so loved the world");
@@ -160,11 +160,13 @@ function FillCheckArray($myArray)
     {
         //check each ite;
         foreach($_POST[$myArray] as $thisItem)
-            if(isset ($thisItem))
-            {
+        {
+                if(isset ($thisItem))
+                {
                //If and items is checked, added it to our array
                 array_push($checkedBoxes, $thisItem);
             }
+        }
     }
 
   
