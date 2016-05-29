@@ -28,6 +28,7 @@
             <li><a href="team-index.html" title="Week-5 Team Activity">Week-5 Team Activity</a></li>
             <li><a href="wk6-index.php" title="Week-6 Solo Attempt">Week-6 Solo Attempt</a></li>
             <li><a href="index.php" title="Week-6 Team Activity">Week-6 Team Activity</a></li>
+            <li><a href="topicEntry.php" title="Week-6 Solution">Week-6 Solution</a></li>
         </ul>
        <br>
     </main>
