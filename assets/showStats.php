@@ -1,6 +1,6 @@
 <?php
 /**********************************************************
-* File: viewScriptures.php
+* File: showStats.php
 * Author: Br. Burton
 * 
 * Description: This file shows an example of how to query a

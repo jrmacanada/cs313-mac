@@ -81,7 +81,7 @@ try
 
 	$statement->bindParam(':name', $book);
 	$statement->bindParam(':date', $chapter);
-	$statement->bindParam(':counrty', $verse);
+	$statement->bindParam(':country', $verse);
 	$statement->bindParam(':story', $content);
 
 	$statement->execute();
