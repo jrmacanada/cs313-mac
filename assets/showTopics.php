@@ -21,16 +21,16 @@
 <?php
 
 // It would be better to store these in a different file
-$dbUser = 'ta4User';
-$dbPass = 'ta4pass';
-$dbName = 'teamActivity4';
-$dbHost = '127.0.0.1'; // for my configuration, I need this rather than 'localhost'
+// mac $dbUser = 'ta4User';
+// mac $dbPass = 'ta4pass';
+// mac $dbName = 'teamActivity4';
+// mac $dbHost = '127.0.0.1'; // for my configuration, I need this rather than 'localhost'
 
 try
 {
 	// Create the PDO connection
-	$db = new PDO("mysql:host=$dbHost;dbname=$dbName", $dbUser, $dbPass);
-
+// mac 	$db = new PDO("mysql:host=$dbHost;dbname=$dbName", $dbUser, $dbPass);
+        $db = dbConnect();
 	// this line makes PDO give us an exception when there are problems, and can be very helpful in debugging!
 	$db->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
 
