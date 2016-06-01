@@ -5,7 +5,7 @@
         <?php
         // Check if user is logged in and
         // display appropriate account links
-        $account_url = $app_path . 'cs313php/account';
+        $account_url = $app_path . 'php/account';
         $logout_url = $account_url . '?action=logout';
         if (isset($_SESSION['admin'])) :
         ?>
