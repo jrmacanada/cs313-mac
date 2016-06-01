@@ -1,5 +1,5 @@
-<?php include 'view/header.php'; ?>
-<?php include 'view/sidebar_admin.php'; ?>
+<?php //include 'view/header.php'; ?>
+<?php //include 'view/sidebar_admin.php'; ?>
 <div id="content">
     <h1 class="top">Administrator Accounts</h1>
     <?php if (isset($_SESSION['admin'])) : ?>
@@ -73,4 +73,4 @@ if (isset($_SESSION['form_data'])) {
     unset($_SESSION['form_data']);
 }
 ?>
-<?php include 'view/footer.php'; ?>
+<?php //include 'view/footer.php'; ?>

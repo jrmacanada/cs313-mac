@@ -1,5 +1,5 @@
-<?php include 'view/header.php'; ?>
-<?php include 'view/sidebar_admin.php'; ?>
+<?php //include 'view/header.php'; ?>
+<?php //include 'view/sidebar_admin.php'; ?>
 <div id="content">
     <h1>Delete Account</h1>
     <p>Are you sure you want to delete the account for
@@ -15,4 +15,4 @@
         <input type="submit" value="Cancel" />
     </form>
 </div>
-<?php include 'view/footer.php'; ?>
+<?php //include 'view/footer.php'; ?>
