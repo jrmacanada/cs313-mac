@@ -1,8 +1,8 @@
 <?php
 error_reporting( error_reporting() & ~E_NOTICE );
-//require_once('../../util/main.php');
+require_once('main.php');
 //****require_once('util/secure_conn.php');
-//require_once('model/admin_db.php');
+require_once('admin_db.php');
 
 if (isset($_SESSION['user'])) {
     display_error('You cannot login to the admin section while ' .
