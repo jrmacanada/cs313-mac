@@ -18,29 +18,28 @@
     </header>
         <?php include 'snip-mainmenu.php'; ?>
     <main>
+        <h2>Reporter's Record</h2>
     <div>
 
-<h1>Reporter's Record</h1>
+    <form id="mainForm" action="insertReporter.php" method="POST">
 
-<form id="mainForm" action="insertReporter.php" method="POST">
+            <input type="text" id="txtBook" name="txtBook"></input>
+            <label for="txtBooK">Name of Reporter</label>
+            <br /><br />
 
-	<input type="text" id="txtBook" name="txtBook"></input>
-	<label for="txtBooK">Name of Reporter</label>
-	<br /><br />
+            <input type="text" id="txtChapter" name="txtChapter"></input>
+            <label for="txtChapter">Date of Input</label>
+            <br /><br />
 
-	<input type="text" id="txtChapter" name="txtChapter"></input>
-	<label for="txtChapter">Date of Input</label>
-	<br /><br />
+            <input type="text" id="txtVerse" name="txtVerse"></input>
+            <label for="txtVerse">Source of Data</label>
+            <br /><br />
 
-	<input type="text" id="txtVerse" name="txtVerse"></input>
-	<label for="txtVerse">Source of Data</label>
-	<br /><br />
+            <label for="txtContent">Historical Background:</label><br />
+            <textarea id="txtContent" name="txtContent" rows="4" cols="40"></textarea>
+            <br /><br />
 
-	<label for="txtContent">Historical Background:</label><br />
-	<textarea id="txtContent" name="txtContent" rows="4" cols="40"></textarea>
-	<br /><br />
-
-	<label>Relationship to Victim:</label><br />
+            <label>Relationship to Victim:</label><br />
 
 <?php
 // This section will now generate the available check boxes for topics
@@ -121,13 +120,13 @@ catch (PDOException $ex)
 
 	<input type="submit" value="Add to Database" />
 
-</form>
+    </form>
 
-</div>
+    </div>
     </main>
-    <footer>
-        <?php include 'snip-cs313menu.php'; ?> 
-    </footer>
+        <footer>
+            <?php include 'snip-cs313menu.php'; ?> 
+        </footer>
 
 </body>
 </html>

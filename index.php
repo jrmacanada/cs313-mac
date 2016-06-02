@@ -40,16 +40,16 @@
         
         <h2>Contact Us</h2>
         <p>Hello, my name is Michael Cavey.</p>
-        <img src="assets/my-photo.jpg" alt="Photograph of Organizer"/>
+        <img src="assets/my-photo.jpg" alt="Photograph of Organizer" style="width:142.5px;height:199.5px;"/>
         <p>If you have any questions, please contact us at <a href="index.php" title="EMAIL">"cav13002@byui.edu"</a>.</p>
         <br>
     </main> 
     <footer>
         <nav>
             <ul>
-                <li><a href="index.php" title="Welcome">HOME</a></li>
+                <li><a href="index.php" title="Return | HOME Page">HOME</a></li>
                 <li><a href="assets/site-plan.php" title="View the Site Plan">Site Plan</a></li>
-                <li><a href="assets/site-map.php" title="Site Map">Site Map</a></li>
+                <li><a href="assets/site-map.php" title="View the Site Map">Site Map</a></li>
                 <li><a href="assets/assignments.php" title="Course Work">Assignments</a></li>
             </ul>
         </nav>

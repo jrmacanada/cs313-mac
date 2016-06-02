@@ -18,29 +18,28 @@
     </header>
         <?php include 'snip-mainmenu.php'; ?>
     <main>
+        <h2>Profiles of the Disappeared</h2>
     <div>
 
-<h1>Profiles of the Disappeared</h1>
+    <form id="mainForm" action="insertVictim.php" method="POST">
 
-<form id="mainForm" action="insertVictim.php" method="POST">
+            <input type="text" id="txtBook" name="txtBook"></input>
+            <label for="txtBooK">Name of Victim</label>
+            <br /><br />
 
-	<input type="text" id="txtBook" name="txtBook"></input>
-	<label for="txtBooK">Name of Victim</label>
-	<br /><br />
+            <input type="text" id="txtChapter" name="txtChapter"></input>
+            <label for="txtChapter">Date Disappeared</label>
+            <br /><br />
 
-	<input type="text" id="txtChapter" name="txtChapter"></input>
-	<label for="txtChapter">Date Disappeared</label>
-	<br /><br />
+            <input type="text" id="txtVerse" name="txtVerse"></input>
+            <label for="txtVerse">Country of Disappearance</label>
+            <br /><br />
 
-	<input type="text" id="txtVerse" name="txtVerse"></input>
-	<label for="txtVerse">Country of Disappearance</label>
-	<br /><br />
+            <label for="txtContent">Personal Story:</label><br />
+            <textarea id="txtContent" name="txtContent" rows="8" cols="80"></textarea>
+            <br /><br />
 
-	<label for="txtContent">Personal Story:</label><br />
-	<textarea id="txtContent" name="txtContent" rows="8" cols="80"></textarea>
-	<br /><br />
-
-	<label>Statistics:</label><br />
+            <label>Statistics:</label><br />
 
 <?php
 // This section will now generate the available check boxes for topics
@@ -121,12 +120,12 @@ catch (PDOException $ex)
 
 	<input type="submit" value="Add to Database" />
 
-</form>
+    </form>
 
-</div>
-</main>
-    <footer>
-        <?php include 'snip-cs313menu.php'; ?>
-    </footer>
+    </div>
+    </main>
+        <footer>
+            <?php include 'snip-cs313menu.php'; ?>
+        </footer>
 </body>
 </html>
