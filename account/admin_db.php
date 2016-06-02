@@ -1,5 +1,4 @@
 <?php
-$db = dbConnect();
 
 function dbConnect() {
 
@@ -32,6 +31,21 @@ function dbConnect() {
 	$db = new PDO("mysql:host=$dbHost:$dbPort;dbname=$dbName", $dbUser, $dbPassword);
 
 	return $db;
+}
+
+	// Create the connection
+try
+{
+//mac	$db = new PDO("mysql:host=$dbHost;dbname=$dbName", $dbUser, $dbPass);
+        $db = dbConnect();
+}
+
+catch (PDOException $ex)
+{
+	// Please be aware that you don't want to output the Exception message in
+	// a production environment
+	echo "Error connecting to DB. Details: $ex";
+	die();
 }
 
 function is_valid_admin_login($email, $password) {
