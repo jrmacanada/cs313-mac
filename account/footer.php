@@ -1,4 +1,5 @@
         </div><!-- end main -->
+        <p><a href="assignments.php" title="Return to Assignments">Return to Assignments</a></p>
         <div id="footer">
             <p class="copyright">
                 Disclaimer: Password access page is presented as course work for CS-313 at BYU-Idaho.

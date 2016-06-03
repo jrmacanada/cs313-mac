@@ -120,6 +120,9 @@ catch (PDOException $ex)
 ?>
 
 </div>
-
+    
+    <p><a href="topicEntry.php" title="Return to Scripture Input Form">Return to Scripture Input Form</a></p>
+    <p><a href="assignments.php" title="Return to Assignments">Return to Assignments</a></p>
+    
 </body>
 </html>

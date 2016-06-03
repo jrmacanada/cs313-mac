@@ -120,10 +120,12 @@ catch (PDOException $ex)
 	<input type="submit" value="Add to Database" />
 
 </form>
+    
+    <p><a href="showTopics.php" title="Display Scriptures Database">Display Scriptures Databases</a></p>
 
-<p><a href="assignments.php" title="Return to Assignments">Return to Assignments</a></p>
+    <p><a href="assignments.php" title="Return to Assignments">Return to Assignments</a></p>
 
 </div>
-
+    
 </body>
 </html>
