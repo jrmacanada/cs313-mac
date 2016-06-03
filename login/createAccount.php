@@ -2,7 +2,9 @@
 /**********************************************************
 * File: singup.php
 * Author: Br. Burton
+* 
 * Adapted by Michael Cavey for project web site.
+* 
 * Description: Allows a user to enter a new username
 *   and password to add to the DB.
 *

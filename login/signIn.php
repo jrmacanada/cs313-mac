@@ -2,7 +2,9 @@
 /**********************************************************
 * File: signIn.php
 * Author: Br. Burton
+* 
 * Adapted by Michael Cavey for project web site.
+* 
 * Description: This page has a form for the user to sign in.
 *
 * In this case, to show another approach, we will have this

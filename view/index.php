@@ -39,7 +39,8 @@ else
         </nav>  
     <main> 
         <div>
-	Username: <?= $username ?> is active. <a href="../login/signOut.php">Sign Out</a>
+            <br /><br />
+            <p>Username: <?= $username ?> is active. <a href="../login/signOut.php">Sign Out</a></p>
         </div>
         <h2>Introduction</h2>
         <p>Welcome to the site where <strong><em>you</em></strong> can make a difference.</p>
