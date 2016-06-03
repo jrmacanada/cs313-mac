@@ -29,7 +29,8 @@ require("password.php"); // used for password hashing.
         
     </head>
     <body>
-    <form class="search" id="login" action="validate.php" method="post"  >
+        <h2>Week-7 Team Activity</h2>
+        <form class="search" id="login" action="validate.php" method="post"  >
             <div>Please Create your username and password:</div>
             <input type="hidden" name="page" value="signup"> 
             Username:

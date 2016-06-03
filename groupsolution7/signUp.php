@@ -39,7 +39,7 @@
 
 </form>
 
-<p><a href="assignments.php" title="Return to Assignments">Return to Assignments</a></p>
+<p><a href="../assets/assignments.php" title="Return to Assignments">Return to Assignments</a></p>
 
 </div>
 

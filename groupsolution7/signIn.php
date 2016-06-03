@@ -156,6 +156,8 @@ if ($badLogin)
 
 Or <a href="signUp.php">Sign up</a> for a new account.
 
+<p><a href="../assets/assignments.php" title="Return to Assignments">Return to Assignments</a></p>
+
 </div>
 
 </body>
