@@ -103,7 +103,7 @@ function addVerse()
     $db = OpenDB("cavey313");
     
 
-    $statement = "INSERT INTO scriptures (book,chapter,verse,context) VALUES ('$book', '$chapter', '$verse', '$context')";
+    $statement = "INSERT INTO cavey313.scriptures (book,chapter,verse,context) VALUES ('$book', '$chapter', '$verse', '$context')";
 
         
    //insert into scriptures VALUES (NULL,NULL,"John","3","5","For god so loved the world");
