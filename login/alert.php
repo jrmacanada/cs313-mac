@@ -6,7 +6,7 @@
 
 <body>
 <div>
-    <p><a href="index.php" title="Return to Login Page">Return to LOGIN Page</a></p>
+    <p><a href="../index.php" title="Return to Login Page">Return to LOGIN Page</a></p>
     <script>
     window.alert("You must have a username & password");
     </script>

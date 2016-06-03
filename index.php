@@ -37,7 +37,7 @@
 
         <h2>Please login with a valid username and password:</h2>
 
-        <form id="mainForm" action="signIn.php" method="POST">
+        <form id="mainForm" action="login/signIn.php" method="POST">
 
                 <input type="text" id="txtUser" name="txtUser"></input>
                 <label for="txtUser">Username</label>
@@ -53,7 +53,7 @@
 
         <br /><br />
 
-        Or <a href="signUp.php">Sign-Up</a> for a new account.
+        Or <a href="login/signUp.php">Sign-Up</a> for a new account.
 
         <br /><br />
         
