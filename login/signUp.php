@@ -4,11 +4,11 @@
     <meta charset="utf-8">
     <title>Sign-Up Page</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="assets/cs313php.css" type="text/css" rel="stylesheet" media="screen">
+    <link href="../assets/cs313php.css" type="text/css" rel="stylesheet" media="screen">
 </head>
 <body>
     <header>
-        <img src="assets/prayer-bible.jpg" alt="Image Logo"/>
+        <img src="../assets/prayer-bible.jpg" alt="Image Logo"/>
         <div>
         <p>-IN LOVING MEMORY-</p>
         <p>Remembering the Disappeared</p>
@@ -17,10 +17,10 @@
     </header>
         <nav>
             <ul>
-                <li><a href="login/alert.php" title="Enter valid ID">HOME</a></li>
-                <li><a href="login/alert.php" title="Enter valid ID">Data</a></li>
-                <li><a href="login/alert.php" title="Enter valid ID">Profiles</a></li>
-                <li><a href="login/alert.php" title="Enter valid ID">FORM</a></li>
+                <li><a href="../login/alert.php" title="Enter valid ID">HOME</a></li>
+                <li><a href="../login/alert.php" title="Enter valid ID">Data</a></li>
+                <li><a href="../login/alert.php" title="Enter valid ID">Profiles</a></li>
+                <li><a href="../login/alert.php" title="Enter valid ID">FORM</a></li>
             </ul>
         </nav>  
     <main>
@@ -47,10 +47,10 @@
     <footer>
         <nav>
             <ul>
-                <li><a href="login/alert.php" title="Enter valid ID">HOME</a></li>
-                <li><a href="login/alert.php" title="Enter valid ID">Site Plan</a></li>
-                <li><a href="login/alert.php" title="Enter valid ID">Site Map</a></li>
-                <li><a href="login/alert.php" title="Enter valid ID">Assignments</a></li>
+                <li><a href="../login/alert.php" title="Enter valid ID">HOME</a></li>
+                <li><a href="../login/alert.php" title="Enter valid ID">Site Plan</a></li>
+                <li><a href="../login/alert.php" title="Enter valid ID">Site Map</a></li>
+                <li><a href="../login/alert.php" title="Enter valid ID">Assignments</a></li>
             </ul>
         </nav>
         <br>

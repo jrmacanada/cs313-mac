@@ -69,7 +69,7 @@ else
     <footer>
         <nav>
             <ul>
-                <li><a href="../index.php" title="Return | HOME Page">HOME</a></li>
+                <li><a href="../index.php" title="Return to HOME Page">HOME</a></li>
                 <li><a href="../assets/site-plan.php" title="View the Site Plan">Site Plan</a></li>
                 <li><a href="../assets/site-map.php" title="View the Site Map">Site Map</a></li>
                 <li><a href="../assets/assignments.php" title="Course Work">Assignments</a></li>
