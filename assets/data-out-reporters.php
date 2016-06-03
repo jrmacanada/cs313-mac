@@ -24,7 +24,7 @@ if ($dbcolumn == "All" || $dbcolumn == NULL) {
 } else if ($dbcolumn == "Date") {
     $statement = $db->query("SELECT date FROM reporter ORDER BY date");
 } else if ($dbcolumn == "Country") {
-    $statement = $db->query("SELECT country FROM reporter ORDER BY source");
+    $statement = $db->query("SELECT source FROM reporter ORDER BY source");
 }
 
 //Get the data from the database

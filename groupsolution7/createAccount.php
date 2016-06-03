@@ -35,15 +35,49 @@ $hashedPassword = password_hash($password, PASSWORD_DEFAULT);
 
 
 // It would be better to store these in a different file
-$dbUser = 'ta6user';
-$dbPass = 'ta6pass';
-$dbName = 'LoginTest';
-$dbHost = '127.0.0.1'; // for my configuration, I need this rather than 'localhost'
+//$dbUser = 'ta6user';
+//$dbPass = 'ta6pass';
+//$dbName = 'LoginTest';
+//$dbHost = '127.0.0.1'; // for my configuration, I need this rather than 'localhost'
+
+function dbConnect() {
+
+	$dbHost = '';
+	$dbPort = '';
+	$dbUser = '';
+	$dbPassword = '';
+	$dbName = 'LoginTest';
+
+	$onOpenShift = getenv('OPENSHIFT_MYSQL_DB_HOST');
+
+	if ($onOpenShift === null || $onOpenShift== "") 
+	{
+		// in our localhost environment
+		$dbHost = '127.0.0.1';
+		$dbPort = '8889';
+		$dbUser = 'root';
+		$dbPassword = 'root';
+	}
+	else {
+		//in our OpenShift environment
+		$dbHost = getenv('OPENSHIFT_MYSQL_DB_HOST');
+		$dbPort = getenv('OPENSHIFT_MYSQL_DB_PORT');
+		$dbUser = getenv('OPENSHIFT_MYSQL_DB_USERNAME');
+		$dbPassword = getenv('OPENSHIFT_MYSQL_DB_PASSWORD');
+	}
+        
+//mac	echo "DB HOST:$dbHost:$dbPort dbName:$dbName user:$dbUser";
+
+	$db = new PDO("mysql:host=$dbHost:$dbPort;dbname=$dbName", $dbUser, $dbPassword);
+
+	return $db;
+}
 
 try
 {
 	// Create the PDO connection
-	$db = new PDO("mysql:host=$dbHost;dbname=$dbName", $dbUser, $dbPass);
+//mac	$db = new PDO("mysql:host=$dbHost;dbname=$dbName", $dbUser, $dbPass);
+        $db = dbConnect();
 
 	// this line makes PDO give us an exception when there are problems, and can be very helpful in debugging!
 	$db->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
