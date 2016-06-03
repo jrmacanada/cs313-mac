@@ -41,7 +41,10 @@ require("password.php"); // used for password hashing.
           <input id="cancel" type="button" value="Cancel" 
        onclick="return cancel_click()" />
         </form>
-        <p/>
+        
+        <br/>
+        <p><a href="../assets/assignments.php" title="Return to Assignments">Return to Assignments</a> </p>
+        
         <div style="color: red;"><?php echo checkError('signup-err'); ?></div>
     </body>
 </html>

@@ -42,7 +42,7 @@
         <h2>Contact Us</h2>
         <p>Hello, my name is Michael Cavey.</p>
         <img src="assets/my-photo.jpg" alt="Photograph of Organizer" style="width:224px;height:282px;"/>
-        <p>If you have any questions about this project, please contact us at <a href="assets/contact-form.php" title="EMAIL">"cav13002@byui.edu"</a>.</p>
+        <p>If you have any questions about this project, please contact us at <a href="../assets/contact-form.php" title="EMAIL">"cav13002@byui.edu"</a>.</p>
         
         <h2>Donations</h2>
         <p>A link will be provided when this site is fully implemented.</p>

@@ -33,11 +33,15 @@ require("password.php"); // used for password hashing.
                    
           <input type="submit" name="submit" value="Submit"> 
         </form>
-        <p>
-        <div>Need a Username?  Click <a href="signup.php">here<a/> to create one </div>
-        <p/>
+        
+        <br/>
+        <div>Need a Username?  Click <a href="signup.php">here</a> to create one </div>
+        
+        <br/>
+        <p><a href="../assets/assignments.php" title="Return to Assignments">Return to Assignments</a> </p>
+        
         <div style="color: red;"><?php echo checkError('signin-err'); ?></div>
-
+        
     </body>
 </html>
     

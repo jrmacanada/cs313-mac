@@ -65,7 +65,7 @@ function login($name,$password)
 //    $statement = $db->query();         
 //    $dbInfo =  $statement->fetchAll(PDO::FETCH_ASSOC);
     
-    $dbInfo = dbRead($db,"Select password from cavey313.users where username=". $db->quote($name));
+    $dbInfo = dbRead($db,"SELECT password FROM cavey313.users WHERE username=". $db->quote($name));
             
     $dbhash = $dbInfo[0]["password"];
     
@@ -90,7 +90,7 @@ function createLogin($name, $password)
   
         $db= openDB("cavey313");
         
-        $dbInfo = dbRead($db,"Select username from cavey313.users where username=". $db->quote($name));
+        $dbInfo = dbRead($db,"SELECT username FROM cavey313.users WHERE username=". $db->quote($name));
         
         if(isset($dbInfo[0]))  //username already exists
         {
