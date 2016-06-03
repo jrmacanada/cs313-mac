@@ -1,4 +1,6 @@
 <?php 
+
+require("password.php"); // used for password hashing.
  // Start the session
     session_start();
     if (empty($_SESSION["loggedin"]))

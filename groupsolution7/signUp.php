@@ -20,8 +20,10 @@
 
 <body>
 <div>
+    
+<h2>Week-7 Solution</h2>
 
-<h1>Sign up for new account</h1>
+<h2>Sign up for new account</h2>
 
 <form id="mainForm" action="createAccount.php" method="POST">
 
@@ -37,6 +39,7 @@
 
 </form>
 
+<p><a href="assignments.php" title="Return to Assignments">Return to Assignments</a></p>
 
 </div>
 

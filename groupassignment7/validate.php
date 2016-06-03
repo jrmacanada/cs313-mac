@@ -1,4 +1,6 @@
 <?php
+
+require("password.php"); // used for password hashing.
  // Start the session
     session_start();
     include "helper_funcs.php";

@@ -1,4 +1,6 @@
 <?php
+
+require("password.php"); // used for password hashing.
  // Start the session
     session_start();
     include 'helper_funcs.php';
@@ -21,7 +23,7 @@
         
     </head>
     <body>
-              
+        <h2>Week-7 Team Activity</h2>    
         <form class="search" id="login" action="validate.php" method="post"  >
             <div>Please enter your username and password:</div>
             <input type="hidden" name="page" value="signin"> 

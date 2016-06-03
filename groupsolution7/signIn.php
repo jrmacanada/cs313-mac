@@ -134,7 +134,9 @@ if ($badLogin)
 }
 ?>
 
-<h1>Please sign in below:</h1>
+<h2>Week-7 Solution</h2>
+
+<h2>Please sign in below:</h2>
 
 <form id="mainForm" action="signIn.php" method="POST">
 
