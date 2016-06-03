@@ -125,15 +125,18 @@ function dbConnect() {
 </head>
 
 <body>
-<div>
-
+    
+<div style="color: red;">
 <?php
 if ($badLogin)
 {
-	echo "Incorrect username or password!<br /><br />\n";
+	echo "WARNING:<br /><br />\n";
+        echo "Incorrect username or password!<br /><br />\n";
+        echo "Try again or create a new account.<br /><br />\n";
 }
 ?>
-
+</div>
+     
 <h2>Week-7 Solution</h2>
 
 <h2>Please sign in below:</h2>
