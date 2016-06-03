@@ -1,3 +1,17 @@
+<?php
+session_start();
+
+if (isset($_SESSION['username']))
+{
+	$username = $_SESSION['username'];
+}
+else
+{
+	header("Location: signIn.php");
+	die(); // we always include a die after redirects.
+}
+?>
+
 <!DOCTYPE html> 
 <html lang="en-US">
 <head>
@@ -24,6 +38,9 @@
             </ul>
         </nav>  
     <main> 
+        <div>
+	Username: <?= $username ?> is active. <a href="signOut.php">Sign Out</a>
+        </div>
         <h2>Introduction</h2>
         <p>Welcome to the site where <strong><em>you</em></strong> can make a difference.</p>
         <p>An estimated 100,000 people have disappeared in Latin American countries 

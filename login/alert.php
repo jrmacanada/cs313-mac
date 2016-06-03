@@ -6,9 +6,10 @@
 
 <body>
 <div>
-<script>
-window.alert("You must have a username & password");
-</script>
+    <p><a href="index.php" title="Return to Login Page">Return to LOGIN Page</a></p>
+    <script>
+    window.alert("You must have a username & password");
+    </script>
 </div>
 
 </body>

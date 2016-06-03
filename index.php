@@ -2,7 +2,7 @@
 <html lang="en-US">
 <head>
     <meta charset="utf-8">
-    <title>HOME Page | CS-313</title>
+    <title>Login Page</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="assets/cs313php.css" type="text/css" rel="stylesheet" media="screen">
 </head>
@@ -17,45 +17,54 @@
     </header>
         <nav>
             <ul>
-                <li><a href="index.php" title="Welcome | HOME Page">HOME</a></li>
-                <li><a href="assets/data-out.php" title="Database Outputs">Data</a></li>
-                <li><a href="assets/persons.php" title="Individual Profiles">Profiles</a></li>
-                <li><a href="assets/data-in.php" title="Database Inputs">FORM</a></li>
+                <li><a href="login/alert.php" title="Enter valid ID">HOME</a></li>
+                <li><a href="login/alert.php" title="Enter valid ID">Data</a></li>
+                <li><a href="login/alert.php" title="Enter valid ID">Profiles</a></li>
+                <li><a href="login/alert.php" title="Enter valid ID">FORM</a></li>
             </ul>
         </nav>  
     <main> 
-        <h2>Introduction</h2>
-        <p>Welcome to the site where <strong><em>you</em></strong> can make a difference.</p>
-        <p>An estimated 100,000 people have disappeared in Latin American countries 
-           over the past sixty years.</p>
-        <p>Restore their memory and history here. Please record the life and times of your missing loved one.</p>
-        <p>We are planning the building of a permanent monument in memory of the disappeared.</p> 
-        <p>Please help use with a donation.</p>
-        
-        <h2>About Us</h2>
-        <p>We are a non-profit organization seeking the names of all those lost in Mexico, Central America, and South America.</p>
-        <p>We hope to build the most complete database of this kind, dedicated to preserving the memory of thousands.</p> 
-        <p>We hope to also build a memorial that would enshrine the names of all those lost.</p>
-        <p>Anyone can input information. Just click on the FORM link to build the database.</p>
-        <p>If you wish to remain anonymous, click on the Profiles link to identify a victim.</p>
-        
-        <h2>Contact Us</h2>
-        <p>Hello, my name is Michael Cavey.</p>
-        <img src="assets/my-photo.jpg" alt="Photograph of Organizer" style="width:224px;height:282px;"/>
-        <p>If you have any questions about this project, please contact us at <a href="assets/contact-form.php" title="EMAIL">"cav13002@byui.edu"</a>.</p>
-        
-        <h2>Donations</h2>
-        <p>A link will be provided when this site is fully implemented.</p>
-        <br>
+        <div style="color: red;">
+        <?php
+        if ($badLogin)
+        {
+                echo "WARNING:<br /><br />\n";
+                echo "Incorrect username or password!<br /><br />\n";
+                echo "Try again or create a new account.<br /><br />\n";
+        }
+        ?>
+        </div>
+
+        <h2>Please login with a valid username and password:</h2>
+
+        <form id="mainForm" action="signIn.php" method="POST">
+
+                <input type="text" id="txtUser" name="txtUser"></input>
+                <label for="txtUser">Username</label>
+                <br /><br />
+
+                <input type="password" id="txtPassword" name="txtPassword"></input>
+                <label for="txtPassword">Password</label>
+                <br /><br />
+
+                <input type="submit" value="Sign In" />
+
+        </form>
+
+        <br /><br />
+
+        Or <a href="signUp.php">Sign-Up</a> for a new account.
+
+        <br /><br />
         
     </main> 
     <footer>
         <nav>
             <ul>
-                <li><a href="login/alert.php" title="Return | HOME Page">HOME</a></li>
-                <li><a href="assets/site-plan.php" title="View the Site Plan">Site Plan</a></li>
-                <li><a href="assets/site-map.php" title="View the Site Map">Site Map</a></li>
-                <li><a href="assets/assignments.php" title="Course Work">Assignments</a></li>
+                <li><a href="login/alert.php" title="Enter valid ID">HOME</a></li>
+                <li><a href="login/alert.php" title="Enter valid ID">Site Plan</a></li>
+                <li><a href="login/alert.php" title="Enter valid ID">Site Map</a></li>
+                <li><a href="login/alert.php" title="Enter valid ID">Assignments</a></li>
             </ul>
         </nav>
         <br>
