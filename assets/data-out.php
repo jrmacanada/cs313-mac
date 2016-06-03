@@ -21,7 +21,7 @@
         <h2>Database OUTPUT Form</h2>
         <h3>Information on Disappeared Persons</h3>
 
-            <form class="search" id="survey" action="data-out-index.php" method="post"  >
+            <form class="search" id="survey" action="data-out-victims.php" method="post"  >
                 <div>Please select a List:</div>
                 <input type="radio" name="data" value="All">All Data<br/>
                 <input type="radio" name="data" value="Name">Names of Victims<br/>
@@ -35,7 +35,7 @@
         
         <h3>Information on Data Providers</h3>
 
-            <form class="search" id="survey" action="data-out-index.php" method="post"  >
+            <form class="search" id="survey" action="data-out-reporters.php" method="post"  >
                 <div>Please select a List:</div>
                 <input type="radio" name="data" value="All">All Data<br/>
                 <input type="radio" name="data" value="Name">Names of Reporters<br/>
