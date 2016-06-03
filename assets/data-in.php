@@ -18,13 +18,13 @@
     </header>
         <?php include 'snip-mainmenu.php'; ?>
     <main>
-        <h2>Reporter's Record</h2>
+        <h2>Contributor's Record</h2>
     <div>
 
     <form id="mainForm" action="insertReporter.php" method="POST">
 
             <input type="text" id="txtBook" name="txtBook"></input>
-            <label for="txtBooK">Name of Reporter</label>
+            <label for="txtBooK">Name of Contributor</label>
             <br /><br />
 
             <input type="text" id="txtChapter" name="txtChapter"></input>

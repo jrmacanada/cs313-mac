@@ -33,12 +33,12 @@
                 <br/>
             </form>
         
-        <h3>Information on Data Providers</h3>
+        <h3>Information on Data Contributors</h3>
 
             <form class="search" id="survey" action="data-out-reporters.php" method="post"  >
                 <div>Please select a List:</div>
                 <input type="radio" name="data" value="All">All Data<br/>
-                <input type="radio" name="data" value="Name">Names of Reporters<br/>
+                <input type="radio" name="data" value="Name">Names of Contributors<br/>
                 <input type="radio" name="data" value="Date">Date of Input<br/>
                 <input type="radio" name="data" value="Country">Source of Data<br/>
                 <br/>

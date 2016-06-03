@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Topic Entry</title>
+	<title>Data on Contributors</title>
 </head>
 
 <body>
@@ -78,7 +78,7 @@ return $db;
 }
 
 ?>
-
+    <br/>
     <p><a href="data-out.php" title="Return to Data Output Form">Return to Data Output Form</a></p>
 
 </div>
