@@ -18,11 +18,11 @@ else
     <meta charset="utf-8">
     <title>HOME Page | CS-313</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="assets/cs313php.css" type="text/css" rel="stylesheet" media="screen">
+    <link href="../assets/cs313php.css" type="text/css" rel="stylesheet" media="screen">
 </head>
 <body>
     <header>
-        <img src="assets/prayer-bible.jpg" alt="Image Logo"/>
+        <img src="../assets/prayer-bible.jpg" alt="Image Logo"/>
         <div>
         <p>-IN LOVING MEMORY-</p>
         <p>Remembering the Disappeared</p>
@@ -31,10 +31,10 @@ else
     </header>
         <nav>
             <ul>
-                <li><a href="index.php" title="Welcome | HOME Page">HOME</a></li>
-                <li><a href="assets/data-out.php" title="Database Outputs">Data</a></li>
-                <li><a href="assets/persons.php" title="Individual Profiles">Profiles</a></li>
-                <li><a href="assets/data-in.php" title="Database Inputs">FORM</a></li>
+                <li><a href="../index.php" title="Welcome | HOME Page">HOME</a></li>
+                <li><a href="../assets/data-out.php" title="Database Outputs">Data</a></li>
+                <li><a href="../assets/persons.php" title="Individual Profiles">Profiles</a></li>
+                <li><a href="../assets/data-in.php" title="Database Inputs">FORM</a></li>
             </ul>
         </nav>  
     <main> 
@@ -58,7 +58,7 @@ else
         
         <h2>Contact Us</h2>
         <p>Hello, my name is Michael Cavey.</p>
-        <img src="assets/my-photo.jpg" alt="Photograph of Organizer" style="width:224px;height:282px;"/>
+        <img src="../assets/my-photo.jpg" alt="Photograph of Organizer" style="width:224px;height:282px;"/>
         <p>If you have any questions about this project, please contact us at <a href="../assets/contact-form.php" title="EMAIL">"cav13002@byui.edu"</a>.</p>
         
         <h2>Donations</h2>
@@ -69,10 +69,10 @@ else
     <footer>
         <nav>
             <ul>
-                <li><a href="index.php" title="Return | HOME Page">HOME</a></li>
-                <li><a href="assets/site-plan.php" title="View the Site Plan">Site Plan</a></li>
-                <li><a href="assets/site-map.php" title="View the Site Map">Site Map</a></li>
-                <li><a href="assets/assignments.php" title="Course Work">Assignments</a></li>
+                <li><a href="../index.php" title="Return | HOME Page">HOME</a></li>
+                <li><a href="../assets/site-plan.php" title="View the Site Plan">Site Plan</a></li>
+                <li><a href="../assets/site-map.php" title="View the Site Map">Site Map</a></li>
+                <li><a href="../assets/assignments.php" title="Course Work">Assignments</a></li>
             </ul>
         </nav>
         <br>
