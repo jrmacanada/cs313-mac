@@ -47,13 +47,13 @@
                 <label for="txtPassword">Password</label>
                 <br /><br />
 
-                <input type="submit" value="Sign In" />
+                <input type="submit" value="Login" />
 
         </form>
 
         <br /><br />
 
-        Or <a href="login/signUp.php">Sign-Up</a> for a new account.
+        <p>Or <a href="login/signUp.php">Sign-Up</a> for a new account.</p>
 
         <br /><br />
         

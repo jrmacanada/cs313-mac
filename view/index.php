@@ -7,7 +7,7 @@ if (isset($_SESSION['username']))
 }
 else
 {
-	header("Location: signIn.php");
+	header("Location: ../login/signIn.php");
 	die(); // we always include a die after redirects.
 }
 ?>
@@ -39,7 +39,7 @@ else
         </nav>  
     <main> 
         <div>
-	Username: <?= $username ?> is active. <a href="login/signOut.php">Sign Out</a>
+	Username: <?= $username ?> is active. <a href="../login/signOut.php">Sign Out</a>
         </div>
         <h2>Introduction</h2>
         <p>Welcome to the site where <strong><em>you</em></strong> can make a difference.</p>

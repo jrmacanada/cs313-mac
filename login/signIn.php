@@ -92,7 +92,7 @@ function dbConnect() {
 			{
 				// password was correct, put the user on the session, and redirect to home
 				$_SESSION['username'] = $username;
-				header("Location: home.php");
+				header("Location: ../view/index.php");
 				die(); // we always include a die after redirects.
 			}
 			else
