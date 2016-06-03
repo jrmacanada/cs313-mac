@@ -20,7 +20,7 @@ try
     die();
 }
 
-echo "DATABASE LIST<br><br>";
+echo "DATABASE LIST Victims<br><br>";
 
 //Get selected radio button
 $dbcolumn =  $_POST['data'];
