@@ -18,8 +18,9 @@
     </header>
         <?php include 'snip-mainmenu.php'; ?>
     <main>
-    <h2>Content (not part of the CS-313 project)</h2>
-    <p>Placeholder Page: SITE MAP under development.</p>
+    <h2>SITE MAP</h2>
+    <p>Placeholder Page: Content under development.</p>
+    <p>(not part of the CS-313 project)</p>
     <br>
     </main>
     <footer>

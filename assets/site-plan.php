@@ -18,13 +18,13 @@
     </header>
         <?php include 'snip-mainmenu.php'; ?>
     <main>
-    <h2>Content (not part of the CS-313 project)</h2>
-    <p>Placeholder Page: SITE PLAN under development.</p>
+    <h2>SITE PLAN</h2>
+    <p>Placeholder Page: Content under development.</p>
+    <p>(not part of the CS-313 project)</p>
     <br>
     </main>
     <footer>
         <?php include 'snip-cs313menu.php'; ?> 
     </footer>
-
 </body>
 </html>

@@ -29,22 +29,23 @@
             <label for="name">Please identify the <strong>Verse</strong>:</label>
             <input type="text" name="name" id="name" size="30" required="true"/>
             <br/>
-        <h4>Content</h4>
+        <p><strong>Content:</strong> (copy and paste your scripture into the box)</p>
             <textarea name="message" id="message" rows="10" cols="100" required="true"></textarea>
-            <p>(copy and paste your scripture into the box)</p>
-        <h4>What topics does your scripture relate too?</h4>
+            
+        <p><strong>What topic does your scripture relate too?</strong> (select as many as apply)</p>
             <input type="checkbox" name="faith" value="faith"/>Faith<br/>
             <input type="checkbox" name="sacrifice" value="sacrifice"/>Sacrifice<br/>
             <input type="checkbox" name="charity" value="charity"/>Charity<br/>
-            <p>(select as many as apply)</p>
+            
             <br/>
-            <label for="name">Please start a NEW topic:</label>
+            <label for="name">Please start a NEW scripture topic:</label>
             <input type="text" name="name" id="name" size="30" required="true"/>
+            <br/>
             <br/>
             <input type="submit" name="action" id="action" value="Submit"/>
         </form>
         <p><a href="team-index.html" title="Go to Data Query">Go to Data Query</a></p>
-        <br>
+        <br/>
     </main>
     <footer>
         <?php include 'snip-cs313menu.php'; ?> 

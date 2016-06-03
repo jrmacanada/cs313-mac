@@ -35,7 +35,7 @@
             <label for="txtVerse">Country of Disappearance</label>
             <br /><br />
 
-            <label for="txtContent">Personal Story:</label><br />
+            <label for="txtContent">Personal Story: (640 word limit)</label><br />
             <textarea id="txtContent" name="txtContent" rows="8" cols="80"></textarea>
             <br /><br />
 
@@ -117,9 +117,9 @@ catch (PDOException $ex)
 ?>
 
 	<br />
-
 	<input type="submit" value="Add to Database" />
-
+        <br />
+        <br />
     </form>
 
     </div>

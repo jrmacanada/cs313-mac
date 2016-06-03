@@ -35,8 +35,8 @@
             <label for="txtVerse">Source of Data</label>
             <br /><br />
 
-            <label for="txtContent">Historical Background:</label><br />
-            <textarea id="txtContent" name="txtContent" rows="4" cols="40"></textarea>
+            <label for="txtContent">Historical Background: (250 word limit)</label><br />
+            <textarea id="txtContent" name="txtContent" rows="5" cols="50"></textarea>
             <br /><br />
 
             <label>Relationship to Victim:</label><br />
@@ -117,9 +117,9 @@ catch (PDOException $ex)
 ?>
 
 	<br />
-
 	<input type="submit" value="Add to Database" />
-
+        <br />
+        <br />
     </form>
 
     </div>

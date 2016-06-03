@@ -27,7 +27,7 @@
             <input type="radio" name="data" value="Name">Names of Victims<br/>
             <input type="radio" name="data" value="Date">Date Disappeared<br/>
             <input type="radio" name="data" value="Country">Country of Disappearance<br/>
-            <input type="submit" name="submit" value="Submit">
+            <input type="submit" name="submit" value="Submit Request">
             <br/>
             <br/>
         </form>

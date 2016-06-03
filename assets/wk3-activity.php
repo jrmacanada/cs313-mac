@@ -4,7 +4,8 @@
     <title>Team Survey Form</title>
 </head>
 <body>
-    <h2>Take the Team Survey:</h2>
+    <h2>Week-3 Team Activity</h2>
+    <h3>Take the Team Survey:</h3>
     <form method="post" action="wk3act-index.php">
         <label for="name">Your Name:</label>
         <input type="text" name="name" id="name" size="20" required="true"/>
