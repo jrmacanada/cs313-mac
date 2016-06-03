@@ -30,6 +30,7 @@
             <li><a href="index.php" title="Week-6 Team Activity">Week-6 Team Activity</a></li>
             <li><a href="topicEntry.php" title="Week-6 Solution">Week-6 Solution</a></li>
             <li><a href="../account/index.php" title="Week-7 Solo Attempt">Week-7 Solo Attempt</a></li>
+            <li><a href="../groupassignment7/index.php" title="Week-7 Team Activity">Week-7 Team Activity</a></li>
         </ul>
        <br>
     </main>
