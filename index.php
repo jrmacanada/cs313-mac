@@ -37,12 +37,17 @@
         <p>We hope to build the most complete database of this kind, dedicated to preserving the memory of thousands.</p> 
         <p>We hope to also build a memorial that would enshrine the names of all those lost.</p>
         <p>Anyone can input information. Just click on the FORM link to build the database.</p>
+        <p>If you wish to remain anonymous, click on the Profiles link to identify a victim.</p>
         
         <h2>Contact Us</h2>
         <p>Hello, my name is Michael Cavey.</p>
-        <img src="assets/my-photo.jpg" alt="Photograph of Organizer" style="width:299px;height:376px;"/>
+        <img src="assets/my-photo.jpg" alt="Photograph of Organizer" style="width:224px;height:282px;"/>
         <p>If you have any questions, please contact us at <a href="index.php" title="EMAIL">"cav13002@byui.edu"</a>.</p>
+        
+        <h2>Donations</h2>
+        <p>A link will be provided when site is fully functional.</p>
         <br>
+        
     </main> 
     <footer>
         <nav>

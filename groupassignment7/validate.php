@@ -58,7 +58,7 @@ function login($name,$password)
     $success = false;
     
     
-    $db= openDB("users");
+    $db= openDB("cavey313");
 //    
 //    $statement = $db->query();         
 //    $dbInfo =  $statement->fetchAll(PDO::FETCH_ASSOC);
@@ -86,7 +86,7 @@ function createLogin($name, $password)
     if((checkValidLen($name,8) && checkValidLen($password,8)))   //force at least 8 character length
     {
   
-        $db= openDB("users");
+        $db= openDB("cavey313");
         
         $dbInfo = dbRead($db,"Select username from users where username=". $db->quote($name));
         

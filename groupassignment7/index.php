@@ -20,7 +20,7 @@
 -->
 <html>
     <head>
-        <title>GroupProject 7.5</title>
+        <title>Group Project 7.5</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
@@ -28,10 +28,9 @@
     <body>
               
         <h2>Welcome <?php echo $_SESSION['name']; ?> to the Scripture Homepage.</h2><p/>
-        <form class="search" id="login" action="add_verse.php" method="post"  >
+        <form class="search" id="login" action="../assets/add_verse.php" method="post"  >
             <div>Please Add your Scripture:</div>
-            Book:
-            <input type="text" name="book"><br/>
+            Book: <input type="text" name="book"><br/>
             Chapter: <input type="text" name="chapter"> 
             Verse: <input type="text" name="verse"><br/>
             Scriptures Topics:<br>

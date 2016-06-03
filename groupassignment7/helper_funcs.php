@@ -2,7 +2,7 @@
 
 /**************************************
  * 
- *  File: db_funcs.php
+ *  File: helper_funcs.php
  *  Created by: jsimpson
  *  Date: May 25, 2016 6:58:42 AM
  *  Description:
@@ -31,7 +31,7 @@ function checkValidLen($str,$len)
                 
 function getTopics()
 {
-    $db = OpenDB("scriptures");
+    $db = OpenDB("cavey313");
 
     $statement = $db->query("SELECT * FROM topics");
     $topics = $statement->fetchAll(PDO::FETCH_ASSOC);
@@ -68,7 +68,7 @@ function addTopics($getId)
       }
       
    
-    $db = OpenDB("scriptures");
+    $db = OpenDB("cavey313");
      //insert into scriptures VALUES (NULL,NULL,"John","3","5","For god so loved the world");
     $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
  
@@ -100,7 +100,7 @@ function addVerse()
     $context =  $_POST['content'];
   
 
-    $db = OpenDB("scriptures");
+    $db = OpenDB("cavey313");
     
 
     $statement = "INSERT INTO scriptures (book,chapter,verse,context) VALUES ('$book', '$chapter', '$verse', '$context')";
