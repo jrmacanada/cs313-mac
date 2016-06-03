@@ -17,10 +17,10 @@
     </header>
         <nav>
             <ul>
-                <li><a href="../login/alert.php" title="Enter valid ID">HOME</a></li>
-                <li><a href="../login/alert.php" title="Enter valid ID">Data</a></li>
-                <li><a href="../login/alert.php" title="Enter valid ID">Profiles</a></li>
-                <li><a href="../login/alert.php" title="Enter valid ID">FORM</a></li>
+                <li><a href="../login/alert2.php" title="Enter valid ID">HOME</a></li>
+                <li><a href="../login/alert2.php" title="Enter valid ID">Data</a></li>
+                <li><a href="../login/alert2.php" title="Enter valid ID">Profiles</a></li>
+                <li><a href="../login/alert2.php" title="Enter valid ID">FORM</a></li>
             </ul>
         </nav>  
     <main>
@@ -41,16 +41,18 @@
             <input type="submit" value="Create Account" />
 
     </form>
-
+    
+    <br /><br />
+    
     </div>
     </main> 
     <footer>
         <nav>
             <ul>
-                <li><a href="../login/alert.php" title="Enter valid ID">HOME</a></li>
-                <li><a href="../login/alert.php" title="Enter valid ID">Site Plan</a></li>
-                <li><a href="../login/alert.php" title="Enter valid ID">Site Map</a></li>
-                <li><a href="../login/alert.php" title="Enter valid ID">Assignments</a></li>
+                <li><a href="../login/alert2.php" title="Enter valid ID">HOME</a></li>
+                <li><a href="../login/alert2.php" title="Enter valid ID">Site Plan</a></li>
+                <li><a href="../login/alert2.php" title="Enter valid ID">Site Map</a></li>
+                <li><a href="../login/alert2.php" title="Enter valid ID">Assignments</a></li>
             </ul>
         </nav>
         <br>
