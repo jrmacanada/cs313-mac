@@ -16,28 +16,29 @@
 
 <body>
 <div>
+    <h2>Week-6 Solution</h2>
 
-<h1>Enter New Scriptures and Topics</h1>
+    <h2>Enter New Scriptures and Topics</h2>
 
-<form id="mainForm" action="insertTopic.php" method="POST">
+    <form id="mainForm" action="insertTopic.php" method="POST">
 
-	<input type="text" id="txtBook" name="txtBook"></input>
-	<label for="txtBooK">Book</label>
-	<br /><br />
+            <input type="text" id="txtBook" name="txtBook"></input>
+            <label for="txtBooK">Book</label>
+            <br /><br />
 
-	<input type="text" id="txtChapter" name="txtChapter"></input>
-	<label for="txtChapter">Chapter</label>
-	<br /><br />
+            <input type="text" id="txtChapter" name="txtChapter"></input>
+            <label for="txtChapter">Chapter</label>
+            <br /><br />
 
-	<input type="text" id="txtVerse" name="txtVerse"></input>
-	<label for="txtVerse">Verse</label>
-	<br /><br />
+            <input type="text" id="txtVerse" name="txtVerse"></input>
+            <label for="txtVerse">Verse</label>
+            <br /><br />
 
-	<label for="txtContent">Content:</label><br />
-	<textarea id="txtContent" name="txtContent" rows="4" cols="50"></textarea>
-	<br /><br />
+            <label for="txtContent">Content:</label><br />
+            <textarea id="txtContent" name="txtContent" rows="4" cols="50"></textarea>
+            <br /><br />
 
-	<label>Topics:</label><br />
+            <label>Topics:</label><br />
 
 <?php
 // This section will now generate the available check boxes for topics

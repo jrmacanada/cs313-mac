@@ -23,11 +23,10 @@
     </head>
     <body>
               
-      
+        <h2>Week-6 Team Activity</h2>
         <form class="search" id="scriptures" action="add_verse.php" method="post"  >
             <div>Please Add your Scripture:</div>
-            Book:
-            <input type="text" name="book"><br/>
+            Book: <input type="text" name="book"><br/>
             Chapter: <input type="text" name="chapter"> 
             Verse: <input type="text" name="verse"><br/>
             Scriptures Topics:<br>

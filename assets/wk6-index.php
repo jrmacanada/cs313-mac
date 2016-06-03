@@ -19,6 +19,7 @@
         <?php include 'snip-mainmenu.php'; ?>
     <main>
         <h2>Scripture INPUT Form</h2>
+        <p>Week-6 Solo Attempt (NOT connected to database)</p>
         <form id="survey-form" method="post" action="wk6-index.php">
             <label for="name">Please identify the <strong>Book</strong>:</label>
             <input type="text" name="name" id="name" size="30" required="true"/>
@@ -29,10 +30,10 @@
             <label for="name">Please identify the <strong>Verse</strong>:</label>
             <input type="text" name="name" id="name" size="30" required="true"/>
             <br/>
-        <p><strong>Content:</strong> (copy and paste your scripture into the box)</p>
+            <strong>Content:</strong> (copy and paste your scripture into the box)
             <textarea name="message" id="message" rows="10" cols="100" required="true"></textarea>
-            
-        <p><strong>What topic does your scripture relate too?</strong> (select as many as apply)</p>
+            <br/>
+            <strong>What topic does your scripture relate too?</strong> (select as many as apply)
             <input type="checkbox" name="faith" value="faith"/>Faith<br/>
             <input type="checkbox" name="sacrifice" value="sacrifice"/>Sacrifice<br/>
             <input type="checkbox" name="charity" value="charity"/>Charity<br/>

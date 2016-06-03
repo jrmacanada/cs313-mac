@@ -24,6 +24,7 @@
         
     <div id="page">
         <div id="header">
+            <h2>Week-7 Solo Attempt (NOT connected to database)</h2>
             <h1>Password Access Page</h1>
         </div>
         <div id="main">
