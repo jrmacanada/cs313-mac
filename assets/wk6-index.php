@@ -18,8 +18,10 @@
     </header>
         <?php include 'snip-mainmenu.php'; ?>
     <main>
+        <h2>Week-6 Solo Attempt</h2>
+        
         <h2>Scripture INPUT Form</h2>
-        <p>Week-6 Solo Attempt (NOT connected to database)</p>
+        
         <form id="survey-form" method="post" action="wk6-index.php">
             <label for="name">Please identify the <strong>Book</strong>:</label>
             <input type="text" name="name" id="name" size="30" required="true"/>
@@ -30,10 +32,13 @@
             <label for="name">Please identify the <strong>Verse</strong>:</label>
             <input type="text" name="name" id="name" size="30" required="true"/>
             <br/>
+            <br/>
             <strong>Content:</strong> (copy and paste your scripture into the box)
             <textarea name="message" id="message" rows="10" cols="100" required="true"></textarea>
             <br/>
+            <br/>
             <strong>What topic does your scripture relate too?</strong> (select as many as apply)
+            <br/>
             <input type="checkbox" name="faith" value="faith"/>Faith<br/>
             <input type="checkbox" name="sacrifice" value="sacrifice"/>Sacrifice<br/>
             <input type="checkbox" name="charity" value="charity"/>Charity<br/>
@@ -44,6 +49,7 @@
             <br/>
             <br/>
             <input type="submit" name="action" id="action" value="Submit"/>
+            <p>(NOT connected to database)</p>
         </form>
         <p><a href="team-index.html" title="Go to Data Query">Go to Data Query</a></p>
         <br/>
