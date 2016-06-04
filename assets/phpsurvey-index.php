@@ -7,7 +7,7 @@ if (!isset($_SESSION['complete'])) {
 // Save form data to file
 if ($_SESSION["complete"] == 0) {
 	if ($_SERVER['REQUEST_METHOD'] === 'POST' && $_POST['action'] == "Send") {
-		$surveyfile = fopen("surveydata.txt", "a") or die("Unable to open file!");
+		$surveyfile = fopen("surveydata.txt", "a+") or die("Unable to open file!");
 		$span_style = "<span style='font-weight: bold'>";
 		$form_data  = $span_style . "Surveyed: " . "</span>" . $_POST['name'] . "</br>";
                 $form_data .= $span_style . "Other Classes: " . "</span>" . $_POST['cit336'] ."/". $_POST['cit230'] ."/". $_POST['cs246'] ."/". $_POST['cs235'] ."/". $_POST['cs213'] ."/". $_POST['cs165'] ."/". $_POST['cs124'] ."/". $_POST['none'] . "</br>";
@@ -42,7 +42,7 @@ if ($_SESSION["complete"] == 0) {
         <p>Please Input your Information</p>
         </div>
     </header>
-        <?php include 'stop-mainmenu.php'; ?>
+        <?php include 'snip-mainmenu.php'; ?>
     <main>
     <h2>Survey Results:</h2>
 
@@ -59,7 +59,7 @@ if ($_SESSION["complete"] == 0) {
     <br>
     </main>
     <footer>
-        <?php include 'stop-cs313menu.php'; ?> 
+        <?php include 'snip-cs313menu.php'; ?> 
     </footer>
 </body>
 </html>

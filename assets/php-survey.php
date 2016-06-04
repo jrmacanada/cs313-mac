@@ -27,7 +27,7 @@ if (!isset($_SESSION['complete'])) {
         <p>Please Input your Information</p>
         </div>
     </header>
-        <?php include 'stop-mainmenu.php'; ?>
+        <?php include 'snip-mainmenu.php'; ?>
     <main>
     <h2>You may take the PHP Survey once:</h2>
     <form id="survey-form" method="post" action="phpsurvey-index.php">
@@ -68,7 +68,7 @@ if (!isset($_SESSION['complete'])) {
     <br>
     </main>
     <footer>
-        <?php include 'stop-cs313menu.php'; ?> 
+        <?php include 'snip-cs313menu.php'; ?> 
     </footer>
 
 </body>
