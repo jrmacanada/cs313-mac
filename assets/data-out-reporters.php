@@ -27,7 +27,7 @@ $dbcolumn =  $_POST['data'];
 
 //Check which Radio button was selected or NULL
 if ($dbcolumn == "All" || $dbcolumn == NULL) {
-    header("Location: data-out-reporters.php");
+    header("Location: showRelation.php");
     die(); // we always include a die after redirects.
 } else if ($dbcolumn == "Name") {
     $statement = $db->query("SELECT name FROM reporter ORDER BY name");

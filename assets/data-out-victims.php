@@ -27,7 +27,7 @@ $dbcolumn =  $_POST['data'];
 
 //Check which Radio button was selected or NULL
 if ($dbcolumn == "All" || $dbcolumn == NULL) {
-    header("Location: data-out-victims.php");
+    header("Location: showStats.php");
     die(); // we always include a die after redirects.
 } else if ($dbcolumn == "Name") {
     $statement = $db->query("SELECT name FROM disappeared ORDER BY name");
