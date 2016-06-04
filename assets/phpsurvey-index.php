@@ -42,7 +42,7 @@ if ($_SESSION["complete"] == 0) {
         <p>Please Input your Information</p>
         </div>
     </header>
-        <?php include 'snip-mainmenu.php'; ?>
+        <?php include 'stop-mainmenu.php'; ?>
     <main>
     <h2>Survey Results:</h2>
 
@@ -59,7 +59,7 @@ if ($_SESSION["complete"] == 0) {
     <br>
     </main>
     <footer>
-        <?php include 'snip-cs313menu.php'; ?> 
+        <?php include 'stop-cs313menu.php'; ?> 
     </footer>
 </body>
 </html>

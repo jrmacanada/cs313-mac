@@ -1,3 +1,17 @@
+<?php
+session_start();
+
+if (isset($_SESSION['username']))
+{
+	$username = $_SESSION['username'];
+}
+else
+{
+	header("Location: ../index.php");
+	die(); // we always include a die after redirects.
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en-US">
 <head>

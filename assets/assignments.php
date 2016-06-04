@@ -1,3 +1,17 @@
+<?php
+session_start();
+
+if (isset($_SESSION['username']))
+{
+	$username = $_SESSION['username'];
+}
+else
+{
+	header("Location: ../index.php");
+	die(); // we always include a die after redirects.
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
@@ -18,6 +32,10 @@
     </header>
         <?php include 'snip-mainmenu.php'; ?>
     <main>
+        <div>
+            <br /><br />
+            <p>Username: <?= $username ?> is active -- <a href="../login/signOut.php">Sign Out</a> --</p>
+        </div>
         <h2>List of Assignments</h2>
         <p>Click the link to view assignment.</p>
         <ul>
