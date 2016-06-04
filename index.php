@@ -1,3 +1,5 @@
+<?php require("login/signIn.php"); ?>
+
 <!DOCTYPE html> 
 <html lang="en-US">
 <head>

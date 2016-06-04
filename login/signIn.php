@@ -1,20 +1,7 @@
 <?php
-/**********************************************************
-* File: signIn.php
-* Author: Br. Burton
-* 
-* Adapted by Michael Cavey for project web site.
-* 
-* Description: This page has a form for the user to sign in.
-*
-* In this case, to show another approach, we will have this
-* page have two purposes, it will have the form for signing
-* in, but it will also have the logic to check a username
-* and password and redirect the user to the home page if
-* everything checks out. Thus it will post to itself.
-***********************************************************/
 
 require("password.php"); // used for password hashing.
+
 session_start();
 
 $badLogin = false;
@@ -117,4 +104,8 @@ function dbConnect() {
 	}
 
 }
+
+// include '../index.php';
+
+?>
 
