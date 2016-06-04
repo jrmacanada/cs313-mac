@@ -36,7 +36,7 @@ else
 <div>
 
     <h2>Reporter's Record</h2>
-
+<p>
 <?php
 
 // It would be better to store these in a different file
@@ -137,7 +137,9 @@ catch (PDOException $ex)
 }
 
 ?>
-
+</p>
+<br/>
+<br/>
 </div>
         
     </main>

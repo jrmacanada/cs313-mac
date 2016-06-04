@@ -36,7 +36,7 @@ else
 <div>
     
     <h2>Data on Contributors</h2>
-
+<p>
 <?php
 //This file is used (called out) on "data_out.php"
 //Open DB
@@ -109,6 +109,9 @@ return $db;
 }
 
 ?>
+</p>
+<br/>
+<br/>
 <!--    <br/>
     <p><a href="data-out.php" title="Return to Data Output Form">Return to Data Output Form</a></p>
 -->
