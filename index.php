@@ -39,7 +39,7 @@
 
         <h2>Please login with a valid username and password:</h2>
 
-        <form id="mainForm" action="login/signIn.php" method="POST">
+        <form id="mainForm" action="index.php" method="POST">
 
                 <input type="text" id="txtUser" name="txtUser"></input>
                 <label for="txtUser">Username</label>

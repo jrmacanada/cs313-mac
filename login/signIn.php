@@ -105,7 +105,7 @@ function dbConnect() {
 
 }
 
-include '../index.php';
+// include '../index.php';
 
 
 
