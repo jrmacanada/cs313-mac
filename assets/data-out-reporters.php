@@ -20,14 +20,15 @@ try
     die();
 }
 
-echo "DATABASE LIST Contributors<br><br>";
+echo "DATABASE LIST - Contributors<br><br>";
 
 //Get selected radio button
 $dbcolumn =  $_POST['data'];
 
 //Check which Radio button was selected or NULL
 if ($dbcolumn == "All" || $dbcolumn == NULL) {
-    $statement = $db->query("SELECT id, name, date, source FROM reporter ORDER BY source, name, date");
+    header("Location: data-out-reporters.php");
+    die(); // we always include a die after redirects.
 } else if ($dbcolumn == "Name") {
     $statement = $db->query("SELECT name FROM reporter ORDER BY name");
 } else if ($dbcolumn == "Date") {

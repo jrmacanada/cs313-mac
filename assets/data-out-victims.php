@@ -20,14 +20,15 @@ try
     die();
 }
 
-echo "DATABASE LIST Victims<br><br>";
+echo "DATABASE LIST - Victims<br><br>";
 
 //Get selected radio button
 $dbcolumn =  $_POST['data'];
 
 //Check which Radio button was selected or NULL
 if ($dbcolumn == "All" || $dbcolumn == NULL) {
-    $statement = $db->query("SELECT id, name, date, country FROM disappeared ORDER BY country, name, date");
+    header("Location: data-out-victims.php");
+    die(); // we always include a die after redirects.
 } else if ($dbcolumn == "Name") {
     $statement = $db->query("SELECT name FROM disappeared ORDER BY name");
 } else if ($dbcolumn == "Date") {

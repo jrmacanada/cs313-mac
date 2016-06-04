@@ -46,7 +46,7 @@ else
             <br /><br />
 
             <input type="text" id="txtChapter" name="txtChapter"></input>
-            <label for="txtChapter">Date of Input</label>
+            <label for="txtChapter">Date of Input (yyyy-mm-dd)</label>
             <br /><br />
 
             <input type="text" id="txtVerse" name="txtVerse"></input>
