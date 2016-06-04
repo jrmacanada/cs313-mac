@@ -133,6 +133,7 @@ function dbConnect() {
         </nav>  
     <main> 
         <div style="color: red;">
+            <p> 
         <?php
         if ($badLogin)
         {
@@ -141,6 +142,7 @@ function dbConnect() {
                 echo "Try again or create a new account.<br /><br />\n";
         }
         ?>
+            </p>
         </div>
 
         <h2>Please login with a valid username and password:</h2>
