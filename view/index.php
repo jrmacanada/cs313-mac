@@ -7,7 +7,7 @@ if (isset($_SESSION['username']))
 }
 else
 {
-	header("Location: ../login/signIn.php");
+	header("Location: ../index.php");
 	die(); // we always include a die after redirects.
 }
 ?>
@@ -31,7 +31,7 @@ else
     </header>
         <nav>
             <ul>
-                <li><a href="../index.php" title="Welcome | HOME Page">HOME</a></li>
+                <li><a href="index.php" title="Welcome | HOME Page">HOME</a></li>
                 <li><a href="../assets/data-out.php" title="Database Outputs">Data</a></li>
                 <li><a href="../assets/persons.php" title="Individual Profiles">Profiles</a></li>
                 <li><a href="../assets/data-in.php" title="Database Inputs">FORM</a></li>
@@ -70,7 +70,7 @@ else
     <footer>
         <nav>
             <ul>
-                <li><a href="../index.php" title="Return to HOME Page">HOME</a></li>
+                <li><a href="index.php" title="Return to HOME Page">HOME</a></li>
                 <li><a href="../assets/site-plan.php" title="View the Site Plan">Site Plan</a></li>
                 <li><a href="../assets/site-map.php" title="View the Site Map">Site Map</a></li>
                 <li><a href="../assets/assignments.php" title="Course Work">Assignments</a></li>
