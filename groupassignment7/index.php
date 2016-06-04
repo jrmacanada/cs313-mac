@@ -22,7 +22,7 @@ require("password.php"); // used for password hashing.
               
         <h2>Welcome <?php echo $_SESSION['name']; ?> -</h2><p/>
         <p>Click the link below to access the Home Page.</p>
-        <p><a href="../index.php" title="Access the Home Page">Access the Home Page</a></p>
+        <p><a href="../login/signOut.php" title="Access the Home Page">Access the Home Page</a></p>
         
     </body>
 </html>
