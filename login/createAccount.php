@@ -24,7 +24,7 @@ $password = $_POST['txtPassword'];
 if (!isset($username) || $username == ""
 	|| !isset($password) || $password == "")
 {
-	header("Location: signUp.php");
+	header("Location: ../index.php");
 	die(); // we always include a die after redirects.
 }
 

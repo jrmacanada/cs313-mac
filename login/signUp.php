@@ -26,23 +26,27 @@
     <main>
     <div>
 
-    <h2>Sign up for new account</h2>
+        <h2>Sign up for new account</h2>
 
-    <form id="mainForm" action="createAccount.php" method="POST">
+        <form id="mainForm" action="createAccount.php" method="POST">
 
-            <input type="text" id="txtUser" name="txtUser"></input>
-            <label for="txtUser">Username</label>
-            <br /><br />
+                <input type="text" id="txtUser" name="txtUser"></input>
+                <label for="txtUser">Username</label>
+                <br /><br />
 
-            <input type="password" id="txtPassword" name="txtPassword"></input>
-            <label for="txtPassword">Password</label>
-            <br /><br />
+                <input type="password" id="txtPassword" name="txtPassword"></input>
+                <label for="txtPassword">Password</label>
+                <br /><br />
 
-            <input type="submit" value="Create Account" />
+                <input type="submit" value="Create Account" />
 
-    </form>
+        </form>
     
-    <br /><br />
+        <br /><br />
+
+        <p>Return to<a href="../index.php"> Login Page</a></p>
+
+        <br /><br />
     
     </div>
     </main> 
