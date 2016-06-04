@@ -137,9 +137,10 @@ function dbConnect() {
         <?php
         if ($badLogin)
         {
+                echo "<br /><br />\n";
                 echo "WARNING:<br /><br />\n";
                 echo "Incorrect username or password!<br /><br />\n";
-                echo "Try again or create a new account.<br /><br />\n";
+                echo "Try again or create a new account.\n";
         }
         ?>
             </p>
