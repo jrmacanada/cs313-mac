@@ -1,5 +1,8 @@
 <?php
 
+// Disclaimer: This web site is presented as course work for CS-313 at BYU-Idaho.
+// Copyright 2016 Michael Cavey. All rights reserved.
+
 require("password.php"); // used for password hashing.
 
 session_start();
